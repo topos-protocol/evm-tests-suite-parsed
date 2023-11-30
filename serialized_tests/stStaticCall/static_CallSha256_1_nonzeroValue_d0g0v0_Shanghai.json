@@ -1,27 +1,7 @@
 {
   "txn_number_before": "0x0",
   "gas_used_before": "0x0",
-  "block_bloom_before": [
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0"
-  ],
   "gas_used_after": "0x196db",
-  "block_bloom_after": [
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0"
-  ],
   "signed_txn": [
     248,
     99,
@@ -392,14 +372,14 @@
     },
     "storage_tries": [
       [
-        "0x0fbc62ba90dec43ec1d6016f9dd39dc324e967f2a3459a78281d1f4b2ba962a6",
+        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
         {
           "node": "Empty",
           "hash": null
         }
       ],
       [
-        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
+        "0x0fbc62ba90dec43ec1d6016f9dd39dc324e967f2a3459a78281d1f4b2ba962a6",
         {
           "node": "Empty",
           "hash": null
@@ -755,7 +735,7 @@
     "cur_hash": "0x0000000000000000000000000000000000000000000000000000000000000000"
   },
   "addresses": [
-    "0x095e7baea6a6c7c4c2dfeb977efac326af552d87",
-    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+    "0x095e7baea6a6c7c4c2dfeb977efac326af552d87"
   ]
 }

@@ -1,27 +1,7 @@
 {
   "txn_number_before": "0x0",
   "gas_used_before": "0x0",
-  "block_bloom_before": [
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0"
-  ],
   "gas_used_after": "0xdb3f",
-  "block_bloom_after": [
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0"
-  ],
   "signed_txn": [
     248,
     96,
@@ -713,7 +693,7 @@
     },
     "storage_tries": [
       [
-        "0x08d782f634b05a4d3aa4ce4f5ec0d408dedebdd45aaf6d976d51aa4a9c247683",
+        "0x0fbc62ba90dec43ec1d6016f9dd39dc324e967f2a3459a78281d1f4b2ba962a6",
         {
           "node": {
             "Leaf": {
@@ -741,7 +721,7 @@
         }
       ],
       [
-        "0xe32bf40581882f7099ea680338bce906940440680c9ac2f6e14ffd0e6430fc66",
+        "0x08d782f634b05a4d3aa4ce4f5ec0d408dedebdd45aaf6d976d51aa4a9c247683",
         {
           "node": {
             "Leaf": {
@@ -762,7 +742,7 @@
         }
       ],
       [
-        "0x0fbc62ba90dec43ec1d6016f9dd39dc324e967f2a3459a78281d1f4b2ba962a6",
+        "0xe32bf40581882f7099ea680338bce906940440680c9ac2f6e14ffd0e6430fc66",
         {
           "node": {
             "Leaf": {
@@ -798,10 +778,6 @@
   },
   "genesis_state_trie_root": "0x37ef368f56f7f8be500743bc1f22b490e42bd50df7a78a0f6eb53b596bf4163a",
   "contract_code": {
-    "0x56570de287d73cd1cb6092bb8fdee6173974955fdef345ae579ee9f475ea7432": [
-      18,
-      52
-    ],
     "0xe3c09c53ff2393589b9f160cf15f46c8d2bea275f5139132bcb8d3aa009f9160": [
       115,
       222,
@@ -869,6 +845,10 @@
       0
     ],
     "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
+    "0x56570de287d73cd1cb6092bb8fdee6173974955fdef345ae579ee9f475ea7432": [
+      18,
+      52
+    ],
     "0x52682fb3a9ffb8f155cbf1ac92983edc10d3eea2dde96e7f88b69c153fa06bec": [
       96,
       32,
@@ -1252,10 +1232,10 @@
     "cur_hash": "0x0000000000000000000000000000000000000000000000000000000000000000"
   },
   "addresses": [
-    "0xaeadbeef00000000000000000000000000000000",
-    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
-    "0xdeadbeef00000000000000000000000000000000",
     "0x095e7baea6a6c7c4c2dfeb977efac326af552d87",
+    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+    "0xaeadbeef00000000000000000000000000000000",
+    "0xdeadbeef00000000000000000000000000000000",
     "0xdeadbeef00000000000000000000000000000001"
   ]
 }

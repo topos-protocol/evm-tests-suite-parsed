@@ -1,27 +1,7 @@
 {
   "txn_number_before": "0x0",
   "gas_used_before": "0x0",
-  "block_bloom_before": [
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0"
-  ],
   "gas_used_after": "0x82fc",
-  "block_bloom_after": [
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0"
-  ],
   "signed_txn": [
     248,
     96,
@@ -453,13 +433,6 @@
     },
     "storage_tries": [
       [
-        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
-        {
-          "node": "Empty",
-          "hash": null
-        }
-      ],
-      [
         "0xfe87802413d7ef2c0aca6eaaa9d44d0c79ccf07d8808832e4f05d1441a4f7af8",
         {
           "node": "Empty",
@@ -468,6 +441,13 @@
       ],
       [
         "0xee51ea7e15b3ec83d9e87eac953fcb2444be7f09e9b1e6e02a47fe32c5a9163a",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
+        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
         {
           "node": "Empty",
           "hash": null
@@ -482,6 +462,13 @@
   },
   "genesis_state_trie_root": "0x96372c6c19a7cc6a207efe7dbdc9a7d3a72c2dcb452f24b6f78b1dbfe73ee1f6",
   "contract_code": {
+    "0x33f812b03c9b8f5b0b9d19fd673ba998fcac295460b82f9f9ab797142fbd08ec": [
+      98,
+      171,
+      205,
+      239,
+      255
+    ],
     "0x895bc165ff096cedca1e5ba439422cb63d59915172907fbcc4b8d4111a67a3ae": [
       97,
       222,
@@ -509,13 +496,6 @@
       96,
       1,
       85
-    ],
-    "0x33f812b03c9b8f5b0b9d19fd673ba998fcac295460b82f9f9ab797142fbd08ec": [
-      98,
-      171,
-      205,
-      239,
-      255
     ],
     "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": []
   },
@@ -802,8 +782,8 @@
     "cur_hash": "0x0000000000000000000000000000000000000000000000000000000000000000"
   },
   "addresses": [
-    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
     "0x000000000000000000000000000000000000dead",
-    "0x1000000000000000000000000000000000000000"
+    "0x1000000000000000000000000000000000000000",
+    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
   ]
 }

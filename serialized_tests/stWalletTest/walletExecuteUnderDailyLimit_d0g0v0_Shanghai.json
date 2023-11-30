@@ -1,27 +1,7 @@
 {
   "txn_number_before": "0x0",
   "gas_used_before": "0x0",
-  "block_bloom_before": [
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0"
-  ],
   "gas_used_after": "0x1ed2e",
-  "block_bloom_after": [
-    "0x400000000002000000000000",
-    "0x4000000",
-    "0x2000000",
-    "0x0",
-    "0x0",
-    "0x20000000000000000000000000000000000000000000",
-    "0x20008000000000000000000000000000040000000000000000000000",
-    "0x40000000000000000"
-  ],
   "signed_txn": [
     248,
     197,
@@ -475,6 +455,13 @@
     },
     "storage_tries": [
       [
+        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
         "0xb61adaad51cf60bccc2aaf974866dbba1cb722866c3691d4061a13ab9b2978ea",
         {
           "node": {
@@ -704,13 +691,6 @@
           },
           "hash": null
         }
-      ],
-      [
-        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
-        {
-          "node": "Empty",
-          "hash": null
-        }
       ]
     ]
   },
@@ -721,6 +701,7 @@
   },
   "genesis_state_trie_root": "0x83b7a9c6428451ae81ca51578b5bf6fdec9d1b14c9f2deb6dce65fae029e5a80",
   "contract_code": {
+    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
     "0x39a9f68d5d097d109c30f809909865f36a1f77c10efdfa9ebfabd6e6a3929f50": [
       96,
       96,
@@ -4711,8 +4692,7 @@
       2,
       250,
       190
-    ],
-    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": []
+    ]
   },
   "block_metadata": {
     "block_beneficiary": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
@@ -4997,7 +4977,7 @@
     "cur_hash": "0x0000000000000000000000000000000000000000000000000000000000000000"
   },
   "addresses": [
-    "0xec0e71ad0a90ffe1909d27dac207f7680abba42d",
-    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+    "0xec0e71ad0a90ffe1909d27dac207f7680abba42d"
   ]
 }

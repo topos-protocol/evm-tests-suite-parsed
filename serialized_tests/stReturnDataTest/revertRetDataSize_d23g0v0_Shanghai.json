@@ -1,27 +1,7 @@
 {
   "txn_number_before": "0x0",
   "gas_used_before": "0x0",
-  "block_bloom_before": [
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0"
-  ],
   "gas_used_after": "0x14907",
-  "block_bloom_after": [
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0"
-  ],
   "signed_txn": [
     248,
     166,
@@ -887,41 +867,6 @@
     },
     "storage_tries": [
       [
-        "0xd56ba3ffbc6339cd58b0e02997b95916bc7870d5964479b646008a95174a3daa",
-        {
-          "node": "Empty",
-          "hash": null
-        }
-      ],
-      [
-        "0x227a737497210f7cc2f464e3bfffadefa9806193ccdf873203cd91c8d3eab518",
-        {
-          "node": "Empty",
-          "hash": null
-        }
-      ],
-      [
-        "0xb6b2f533015b984fcca3017c4f65e78a2c013f37867ff35e58a7b7e801cefa7a",
-        {
-          "node": "Empty",
-          "hash": null
-        }
-      ],
-      [
-        "0xa6874a022a8ea199a28bb5ce72a279c5b47c84063180c682daad3761e5aa5b3e",
-        {
-          "node": "Empty",
-          "hash": null
-        }
-      ],
-      [
-        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
-        {
-          "node": "Empty",
-          "hash": null
-        }
-      ],
-      [
         "0xf057b39b049c7df5dfa86c4b0869abe798cef059571a5a1e5bbf5168cf6c097b",
         {
           "node": {
@@ -1023,7 +968,42 @@
         }
       ],
       [
+        "0xa6874a022a8ea199a28bb5ce72a279c5b47c84063180c682daad3761e5aa5b3e",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
+        "0xd56ba3ffbc6339cd58b0e02997b95916bc7870d5964479b646008a95174a3daa",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
+        "0x227a737497210f7cc2f464e3bfffadefa9806193ccdf873203cd91c8d3eab518",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
         "0xe539995104d9080bf040e9f98b9ab4a55ad8af0d7c33bc2af165b2a99c846ae6",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
+        "0xb6b2f533015b984fcca3017c4f65e78a2c013f37867ff35e58a7b7e801cefa7a",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
+        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
         {
           "node": "Empty",
           "hash": null
@@ -1049,10 +1029,6 @@
       96,
       1,
       87
-    ],
-    "0xcea125afc14043f831153e8e02c15c4c5694d6ca208a675b78bf7fdcea4c8769": [
-      80,
-      0
     ],
     "0x212f3fea065d943dfd60d9430c994130969845f3cff3b8e6089a73dbc2cbbb24": [
       96,
@@ -1080,6 +1056,11 @@
       96,
       0,
       243,
+      0
+    ],
+    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
+    "0xcea125afc14043f831153e8e02c15c4c5694d6ca208a675b78bf7fdcea4c8769": [
+      80,
       0
     ],
     "0x961b0535573b87d4529dce32385195e15c1090905bb3f0d0b78040acf7871ecf": [
@@ -2009,8 +1990,7 @@
     "0xa4a4c4049df4924216d580ce8f60ff4f618e604c2a2e2a90ac351db2ddb726ef": [
       254,
       0
-    ],
-    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": []
+    ]
   },
   "block_metadata": {
     "block_beneficiary": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
@@ -2295,12 +2275,12 @@
     "cur_hash": "0x0000000000000000000000000000000000000000000000000000000000000000"
   },
   "addresses": [
+    "0xcccccccccccccccccccccccccccccccccccccccc",
+    "0x0000000000000000000000000000000000000500",
     "0x0000000000000000000000000000000000000200",
     "0x0000000000000000000000000000000000000100",
+    "0x0000000000000000000000000000000000000300",
     "0x0000000000000000000000000000000000000400",
-    "0x0000000000000000000000000000000000000500",
-    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
-    "0xcccccccccccccccccccccccccccccccccccccccc",
-    "0x0000000000000000000000000000000000000300"
+    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
   ]
 }

@@ -1,27 +1,7 @@
 {
   "txn_number_before": "0x0",
   "gas_used_before": "0x0",
-  "block_bloom_before": [
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0"
-  ],
   "gas_used_after": "0x249f0",
-  "block_bloom_after": [
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0"
-  ],
   "signed_txn": [
     248,
     96,
@@ -482,14 +462,14 @@
         }
       ],
       [
-        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
+        "0x4032d85e4914251b9d3a03ebf18a8bd768af46c5e34b379d258f7f2366c06077",
         {
           "node": "Empty",
           "hash": null
         }
       ],
       [
-        "0x4032d85e4914251b9d3a03ebf18a8bd768af46c5e34b379d258f7f2366c06077",
+        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
         {
           "node": "Empty",
           "hash": null
@@ -504,6 +484,23 @@
   },
   "genesis_state_trie_root": "0x369ae553c11a87eb1adeb912c74d5de8275f5a14bd047426ccd0c3f9f50304a7",
   "contract_code": {
+    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
+    "0xdbb29c5d75229b1bd8ea2345b132b449c645f42bce1897561869d0b4fdc5d762": [
+      97,
+      195,
+      79,
+      53,
+      96,
+      0,
+      82,
+      96,
+      1,
+      96,
+      0,
+      81,
+      243,
+      0
+    ],
     "0x8a8ec31a3b4639d3df7a93609c844354a46b775c04d65708c9e22c12726bdb29": [
       91,
       97,
@@ -575,23 +572,6 @@
       96,
       1,
       85,
-      0
-    ],
-    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
-    "0xdbb29c5d75229b1bd8ea2345b132b449c645f42bce1897561869d0b4fdc5d762": [
-      97,
-      195,
-      79,
-      53,
-      96,
-      0,
-      82,
-      96,
-      1,
-      96,
-      0,
-      81,
-      243,
       0
     ]
   },
@@ -879,7 +859,7 @@
   },
   "addresses": [
     "0xaaaf5374fce5edbc8e2a8697c15331677e6ebf0b",
-    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
-    "0xbbbf5374fce5edbc8e2a8697c15331677e6ebf0b"
+    "0xbbbf5374fce5edbc8e2a8697c15331677e6ebf0b",
+    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
   ]
 }

@@ -1,27 +1,7 @@
 {
   "txn_number_before": "0x0",
   "gas_used_before": "0x0",
-  "block_bloom_before": [
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0"
-  ],
   "gas_used_after": "0xb088",
-  "block_bloom_after": [
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0"
-  ],
   "signed_txn": [
     249,
     1,
@@ -774,7 +754,6 @@
   },
   "genesis_state_trie_root": "0x6ea1343c09a02e08f661e4e8dea9ecb3d45a251e473025576407fa3c8d284180",
   "contract_code": {
-    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
     "0xdb94dc4aab9b6a1a11956906ea34f3252f394576aece12199b23b269bb2738ab": [
       96,
       0,
@@ -794,6 +773,7 @@
       53,
       85
     ],
+    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
     "0xbaa13bf5684278db33c93aa352554fa27f9ff732af138b7c68d1ac4e3d69eedf": [
       69,
       127,

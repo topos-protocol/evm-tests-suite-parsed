@@ -1,27 +1,7 @@
 {
   "txn_number_before": "0x0",
   "gas_used_before": "0x0",
-  "block_bloom_before": [
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0"
-  ],
   "gas_used_after": "0x1090d",
-  "block_bloom_after": [
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0"
-  ],
   "signed_txn": [
     248,
     96,
@@ -520,7 +500,7 @@
     },
     "storage_tries": [
       [
-        "0xd76222ed4f53c90e450ceb6ce91d165e430ab15da4efc62dda5fc1a2a468ab40",
+        "0xd0c30dcd188e2cdd56c50b2044d150873010914736f94d07d26ff74c7f0cf89b",
         {
           "node": "Empty",
           "hash": null
@@ -534,7 +514,7 @@
         }
       ],
       [
-        "0xd0c30dcd188e2cdd56c50b2044d150873010914736f94d07d26ff74c7f0cf89b",
+        "0xd76222ed4f53c90e450ceb6ce91d165e430ab15da4efc62dda5fc1a2a468ab40",
         {
           "node": "Empty",
           "hash": null
@@ -549,6 +529,14 @@
   },
   "genesis_state_trie_root": "0xc78cb62aeb1432b01f6565949a5d8c2764b0f901faaa2bbbd9df046f47dcba78",
   "contract_code": {
+    "0x9d54e01d391fd0609aab11b80e7ffdb592668e0103cea76b4604261d5c488324": [
+      90,
+      96,
+      2,
+      85,
+      0
+    ],
+    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
     "0x450625ee842159c28ffa6f2df10baa13bc45a68a9f6f7534eb78276ce0320fc5": [
       90,
       96,
@@ -597,14 +585,6 @@
       3,
       96,
       1,
-      85,
-      0
-    ],
-    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
-    "0x9d54e01d391fd0609aab11b80e7ffdb592668e0103cea76b4604261d5c488324": [
-      90,
-      96,
-      2,
       85,
       0
     ]
@@ -892,8 +872,8 @@
     "cur_hash": "0x0000000000000000000000000000000000000000000000000000000000000000"
   },
   "addresses": [
-    "0x094f5374fce5edbc8e2a8697c15331677e6ebf0b",
+    "0xb94f5374fce5edbc8e2a8697c15331677e6ebf0b",
     "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
-    "0xb94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+    "0x094f5374fce5edbc8e2a8697c15331677e6ebf0b"
   ]
 }

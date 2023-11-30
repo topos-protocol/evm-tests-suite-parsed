@@ -1,27 +1,7 @@
 {
   "txn_number_before": "0x0",
   "gas_used_before": "0x0",
-  "block_bloom_before": [
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0"
-  ],
   "gas_used_after": "0x795d",
-  "block_bloom_after": [
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0"
-  ],
   "signed_txn": [
     248,
     95,
@@ -619,19 +599,9 @@
         }
       ],
       [
-        "0x2416532224035c3df6beeee593eed10fa9f8c9d0f01b3bd76dc6b9f68f274fc4",
+        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
         {
-          "node": {
-            "Leaf": {
-              "nibbles": {
-                "count": 64,
-                "packed": "0xb10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cf6"
-              },
-              "value": [
-                1
-              ]
-            }
-          },
+          "node": "Empty",
           "hash": null
         }
       ],
@@ -653,9 +623,19 @@
         }
       ],
       [
-        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
+        "0x2416532224035c3df6beeee593eed10fa9f8c9d0f01b3bd76dc6b9f68f274fc4",
         {
-          "node": "Empty",
+          "node": {
+            "Leaf": {
+              "nibbles": {
+                "count": 64,
+                "packed": "0xb10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cf6"
+              },
+              "value": [
+                1
+              ]
+            }
+          },
           "hash": null
         }
       ]
@@ -668,6 +648,7 @@
   },
   "genesis_state_trie_root": "0x80764acb4c64d333e280edbbe79c2180e200136239f0b1ea69adb33d7fff39f5",
   "contract_code": {
+    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
     "0x5739d6630c7689e352d552817a958ec45fd04db323d1c1418cd674b226da6b9a": [
       96,
       0,
@@ -716,8 +697,7 @@
       1,
       85,
       0
-    ],
-    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": []
+    ]
   },
   "block_metadata": {
     "block_beneficiary": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
@@ -1003,8 +983,8 @@
   },
   "addresses": [
     "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-    "0xaaae7baea6a6c7c4c2dfeb977efac326af552aaa",
+    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
     "0x095e7baea6a6c7c4c2dfeb977efac326af552d87",
-    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+    "0xaaae7baea6a6c7c4c2dfeb977efac326af552aaa"
   ]
 }

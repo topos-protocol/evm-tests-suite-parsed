@@ -1,27 +1,7 @@
 {
   "txn_number_before": "0x0",
   "gas_used_before": "0x0",
-  "block_bloom_before": [
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0"
-  ],
   "gas_used_after": "0x128bc",
-  "block_bloom_after": [
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0"
-  ],
   "signed_txn": [
     248,
     131,
@@ -922,34 +902,6 @@
     },
     "storage_tries": [
       [
-        "0x8dfad888a2f79bcfe6633c369a5652e94379f63f5849d8e8fe519c586bb49633",
-        {
-          "node": "Empty",
-          "hash": null
-        }
-      ],
-      [
-        "0x4b38f86bb73787385f15c8c5e9b870cb8011b5bfb4ffce95207317bce6193fcb",
-        {
-          "node": "Empty",
-          "hash": null
-        }
-      ],
-      [
-        "0x0fbc62ba90dec43ec1d6016f9dd39dc324e967f2a3459a78281d1f4b2ba962a6",
-        {
-          "node": "Empty",
-          "hash": null
-        }
-      ],
-      [
-        "0xee51ea7e15b3ec83d9e87eac953fcb2444be7f09e9b1e6e02a47fe32c5a9163a",
-        {
-          "node": "Empty",
-          "hash": null
-        }
-      ],
-      [
         "0x0797a8ae1be85d5cb9bf7eabf07bf2b5aefb0b4e89cb4e138147f6a841ad22c0",
         {
           "node": "Empty",
@@ -965,6 +917,34 @@
       ],
       [
         "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
+        "0x4b38f86bb73787385f15c8c5e9b870cb8011b5bfb4ffce95207317bce6193fcb",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
+        "0x8dfad888a2f79bcfe6633c369a5652e94379f63f5849d8e8fe519c586bb49633",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
+        "0x0fbc62ba90dec43ec1d6016f9dd39dc324e967f2a3459a78281d1f4b2ba962a6",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
+        "0xee51ea7e15b3ec83d9e87eac953fcb2444be7f09e9b1e6e02a47fe32c5a9163a",
         {
           "node": "Empty",
           "hash": null
@@ -1366,12 +1346,12 @@
     "cur_hash": "0x0000000000000000000000000000000000000000000000000000000000000000"
   },
   "addresses": [
-    "0x2000000000000000000000000000000000000000",
-    "0x3000000000000000000000000000000000000000",
-    "0x095e7baea6a6c7c4c2dfeb977efac326af552d87",
-    "0x1000000000000000000000000000000000000000",
     "0x4000000000000000000000000000000000000000",
     "0xa000000000000000000000000000000000000000",
-    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+    "0x3000000000000000000000000000000000000000",
+    "0x2000000000000000000000000000000000000000",
+    "0x095e7baea6a6c7c4c2dfeb977efac326af552d87",
+    "0x1000000000000000000000000000000000000000"
   ]
 }

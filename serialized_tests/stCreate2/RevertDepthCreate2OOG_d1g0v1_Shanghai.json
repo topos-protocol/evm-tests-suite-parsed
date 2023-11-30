@@ -1,27 +1,7 @@
 {
   "txn_number_before": "0x0",
   "gas_used_before": "0x0",
-  "block_bloom_before": [
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0"
-  ],
   "gas_used_after": "0x1adb0",
-  "block_bloom_after": [
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0"
-  ],
   "signed_txn": [
     248,
     128,
@@ -552,6 +532,13 @@
     },
     "storage_tries": [
       [
+        "0x35f2ace24bb0b352ff737e6d79691d76500b98613f3507e9d83237c064161b3a",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
         "0x0575f0b26f88f770e01663ec33a25e55811909f7bd5dab82adfd887cbc08f20a",
         {
           "node": "Empty",
@@ -560,13 +547,6 @@
       ],
       [
         "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
-        {
-          "node": "Empty",
-          "hash": null
-        }
-      ],
-      [
-        "0x35f2ace24bb0b352ff737e6d79691d76500b98613f3507e9d83237c064161b3a",
         {
           "node": "Empty",
           "hash": null
@@ -581,6 +561,7 @@
   },
   "genesis_state_trie_root": "0xdecc2cb0b3317938d983200b3990528a1656e036b79abb5bce3464f497f82747",
   "contract_code": {
+    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
     "0x313277d9e186130076598e70035693047b95d334e2ef4ba63688a20d31ade8b9": [
       96,
       1,
@@ -654,8 +635,7 @@
       3,
       85,
       0
-    ],
-    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": []
+    ]
   },
   "block_metadata": {
     "block_beneficiary": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
@@ -940,8 +920,8 @@
     "cur_hash": "0x0000000000000000000000000000000000000000000000000000000000000000"
   },
   "addresses": [
+    "0xb000000000000000000000000000000000000000",
     "0xa000000000000000000000000000000000000000",
-    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
-    "0xb000000000000000000000000000000000000000"
+    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
   ]
 }

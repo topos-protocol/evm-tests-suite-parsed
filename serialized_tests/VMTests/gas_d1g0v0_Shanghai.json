@@ -1,27 +1,7 @@
 {
   "txn_number_before": "0x0",
   "gas_used_before": "0x0",
-  "block_bloom_before": [
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0"
-  ],
   "gas_used_after": "0x70a3",
-  "block_bloom_after": [
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0"
-  ],
   "signed_txn": [
     248,
     133,
@@ -591,21 +571,7 @@
     },
     "storage_tries": [
       [
-        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
-        {
-          "node": "Empty",
-          "hash": null
-        }
-      ],
-      [
         "0x227a737497210f7cc2f464e3bfffadefa9806193ccdf873203cd91c8d3eab518",
-        {
-          "node": "Empty",
-          "hash": null
-        }
-      ],
-      [
-        "0x4599828688a5c37132b6fc04e35760b4753ce68708a7b7d4d97b940047557fdb",
         {
           "node": "Empty",
           "hash": null
@@ -629,6 +595,20 @@
           },
           "hash": null
         }
+      ],
+      [
+        "0x4599828688a5c37132b6fc04e35760b4753ce68708a7b7d4d97b940047557fdb",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
+        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
+        {
+          "node": "Empty",
+          "hash": null
+        }
       ]
     ]
   },
@@ -639,6 +619,13 @@
   },
   "genesis_state_trie_root": "0x89bd10b5b79dc72ad4b7c899119e0d6f14017a33b1c34ffb571517f1b080d0e7",
   "contract_code": {
+    "0xda0f9573c1e0b5fdaf7d9778b1ef7059e94bc2f9125d45e4241d5f5c9ae9bab7": [
+      90,
+      96,
+      0,
+      85,
+      0
+    ],
     "0x1c26e60ccac60fdc2514daa19c1d0cdbe6d94028b294db23d0bfa626393d7570": [
       100,
       255,
@@ -661,6 +648,7 @@
       85,
       0
     ],
+    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
     "0x6c3c0994e2624a5dbca930140acac852e5c1505f3f551a1e764e4843434633f9": [
       96,
       0,
@@ -679,14 +667,6 @@
       1,
       90,
       244,
-      0
-    ],
-    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
-    "0xda0f9573c1e0b5fdaf7d9778b1ef7059e94bc2f9125d45e4241d5f5c9ae9bab7": [
-      90,
-      96,
-      0,
-      85,
       0
     ]
   },
@@ -973,9 +953,9 @@
     "cur_hash": "0x0000000000000000000000000000000000000000000000000000000000000000"
   },
   "addresses": [
-    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
     "0x0000000000000000000000000000000000000100",
+    "0xcccccccccccccccccccccccccccccccccccccccc",
     "0x0000000000000000000000000000000000000101",
-    "0xcccccccccccccccccccccccccccccccccccccccc"
+    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
   ]
 }

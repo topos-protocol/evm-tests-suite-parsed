@@ -1,27 +1,7 @@
 {
   "txn_number_before": "0x0",
   "gas_used_before": "0x0",
-  "block_bloom_before": [
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0"
-  ],
   "gas_used_after": "0x11e45",
-  "block_bloom_after": [
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0"
-  ],
   "signed_txn": [
     1,
     248,
@@ -552,14 +532,14 @@
         }
       ],
       [
-        "0xf057b39b049c7df5dfa86c4b0869abe798cef059571a5a1e5bbf5168cf6c097b",
+        "0x227a737497210f7cc2f464e3bfffadefa9806193ccdf873203cd91c8d3eab518",
         {
           "node": "Empty",
           "hash": null
         }
       ],
       [
-        "0x227a737497210f7cc2f464e3bfffadefa9806193ccdf873203cd91c8d3eab518",
+        "0xf057b39b049c7df5dfa86c4b0869abe798cef059571a5a1e5bbf5168cf6c097b",
         {
           "node": "Empty",
           "hash": null
@@ -575,52 +555,6 @@
   "genesis_state_trie_root": "0x070f1eb7d1ed43d1e965edd3a1e30c2710a0dd61e723ee355378a5e33e48886f",
   "contract_code": {
     "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
-    "0x7efdda39659444287f1be5e45fd19b1dca9e81da73d142afd04258f62171f127": [
-      96,
-      4,
-      53,
-      97,
-      1,
-      0,
-      82,
-      96,
-      36,
-      53,
-      97,
-      1,
-      32,
-      82,
-      96,
-      64,
-      96,
-      0,
-      96,
-      64,
-      97,
-      1,
-      0,
-      96,
-      0,
-      97,
-      1,
-      0,
-      90,
-      241,
-      80,
-      96,
-      0,
-      81,
-      96,
-      0,
-      85,
-      96,
-      32,
-      81,
-      96,
-      1,
-      85,
-      0
-    ],
     "0x6ef00d28f5853c79604bed1ebb29d51bafe5ad89f856111edd5519f76373257d": [
       96,
       0,
@@ -1002,6 +936,52 @@
       85,
       91,
       0
+    ],
+    "0x7efdda39659444287f1be5e45fd19b1dca9e81da73d142afd04258f62171f127": [
+      96,
+      4,
+      53,
+      97,
+      1,
+      0,
+      82,
+      96,
+      36,
+      53,
+      97,
+      1,
+      32,
+      82,
+      96,
+      64,
+      96,
+      0,
+      96,
+      64,
+      97,
+      1,
+      0,
+      96,
+      0,
+      97,
+      1,
+      0,
+      90,
+      241,
+      80,
+      96,
+      0,
+      81,
+      96,
+      0,
+      85,
+      96,
+      32,
+      81,
+      96,
+      1,
+      85,
+      0
     ]
   },
   "block_metadata": {
@@ -1288,7 +1268,7 @@
   },
   "addresses": [
     "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
-    "0xcccccccccccccccccccccccccccccccccccccccc",
-    "0x0000000000000000000000000000000000000100"
+    "0x0000000000000000000000000000000000000100",
+    "0xcccccccccccccccccccccccccccccccccccccccc"
   ]
 }

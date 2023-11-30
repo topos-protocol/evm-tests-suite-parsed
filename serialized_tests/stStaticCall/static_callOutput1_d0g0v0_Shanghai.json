@@ -1,27 +1,7 @@
 {
   "txn_number_before": "0x0",
   "gas_used_before": "0x0",
-  "block_bloom_before": [
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0"
-  ],
   "gas_used_after": "0x175fd",
-  "block_bloom_after": [
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0"
-  ],
   "signed_txn": [
     248,
     99,
@@ -542,14 +522,14 @@
     },
     "storage_tries": [
       [
-        "0x0fbc62ba90dec43ec1d6016f9dd39dc324e967f2a3459a78281d1f4b2ba962a6",
+        "0xd1ffe0955aa3ff8ed0ce77a834a604b763074f71c3b489207a0307bde9387188",
         {
           "node": "Empty",
           "hash": null
         }
       ],
       [
-        "0xd1ffe0955aa3ff8ed0ce77a834a604b763074f71c3b489207a0307bde9387188",
+        "0x0fbc62ba90dec43ec1d6016f9dd39dc324e967f2a3459a78281d1f4b2ba962a6",
         {
           "node": "Empty",
           "hash": null
@@ -571,7 +551,16 @@
   },
   "genesis_state_trie_root": "0x815e190e61a33ce0532a3feba98cd130e0b4708e85a3dde76c506cfb95fff34d",
   "contract_code": {
-    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
+    "0x26f2efc495c911157816d2b02d22feacd28743fe387a91a6452394556bba2f88": [
+      96,
+      1,
+      96,
+      1,
+      1,
+      96,
+      0,
+      85
+    ],
     "0xf4b0ea7bfc232145690116dba15846854a22f187993fa8e99ec0948573668f19": [
       127,
       94,
@@ -651,16 +640,7 @@
       85,
       0
     ],
-    "0x26f2efc495c911157816d2b02d22feacd28743fe387a91a6452394556bba2f88": [
-      96,
-      1,
-      96,
-      1,
-      1,
-      96,
-      0,
-      85
-    ]
+    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": []
   },
   "block_metadata": {
     "block_beneficiary": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
@@ -945,8 +925,8 @@
     "cur_hash": "0x0000000000000000000000000000000000000000000000000000000000000000"
   },
   "addresses": [
-    "0x095e7baea6a6c7c4c2dfeb977efac326af552d87",
     "0xaaae7baea6a6c7c4c2dfeb977efac326af552d87",
+    "0x095e7baea6a6c7c4c2dfeb977efac326af552d87",
     "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
   ]
 }

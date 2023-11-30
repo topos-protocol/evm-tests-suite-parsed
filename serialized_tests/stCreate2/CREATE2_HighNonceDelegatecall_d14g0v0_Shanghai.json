@@ -1,27 +1,7 @@
 {
   "txn_number_before": "0x0",
   "gas_used_before": "0x0",
-  "block_bloom_before": [
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0"
-  ],
   "gas_used_after": "0x1f936",
-  "block_bloom_after": [
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0"
-  ],
   "signed_txn": [
     248,
     230,
@@ -718,31 +698,6 @@
         }
       ],
       [
-        "0xd0c30dcd188e2cdd56c50b2044d150873010914736f94d07d26ff74c7f0cf89b",
-        {
-          "node": {
-            "Leaf": {
-              "nibbles": {
-                "count": 64,
-                "packed": "0x3c2d8cd2b72f4d773761fded626d1882655d749460170d3c9023662f315a9d50"
-              },
-              "value": [
-                136,
-                255,
-                255,
-                255,
-                255,
-                255,
-                255,
-                255,
-                254
-              ]
-            }
-          },
-          "hash": null
-        }
-      ],
-      [
         "0xe88f36593015a0965bce1b9faaa079667bf908faf5a6d1fdf6a771235f5fba52",
         {
           "node": {
@@ -761,6 +716,31 @@
                 255,
                 255,
                 255
+              ]
+            }
+          },
+          "hash": null
+        }
+      ],
+      [
+        "0xd0c30dcd188e2cdd56c50b2044d150873010914736f94d07d26ff74c7f0cf89b",
+        {
+          "node": {
+            "Leaf": {
+              "nibbles": {
+                "count": 64,
+                "packed": "0x3c2d8cd2b72f4d773761fded626d1882655d749460170d3c9023662f315a9d50"
+              },
+              "value": [
+                136,
+                255,
+                255,
+                255,
+                255,
+                255,
+                255,
+                255,
+                254
               ]
             }
           },
@@ -1361,7 +1341,7 @@
   "addresses": [
     "0x000000000000000000000000fffffffffffffffe",
     "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
-    "0xb94f5374fce5edbc8e2a8697c15331677e6ebf0b",
-    "0x000000000000000000000000ffffffffffffffff"
+    "0x000000000000000000000000ffffffffffffffff",
+    "0xb94f5374fce5edbc8e2a8697c15331677e6ebf0b"
   ]
 }

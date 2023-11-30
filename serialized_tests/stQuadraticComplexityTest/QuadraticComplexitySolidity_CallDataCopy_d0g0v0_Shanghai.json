@@ -1,27 +1,7 @@
 {
   "txn_number_before": "0x0",
   "gas_used_before": "0x0",
-  "block_bloom_before": [
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0"
-  ],
   "gas_used_after": "0x249f0",
-  "block_bloom_after": [
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0"
-  ],
   "signed_txn": [
     248,
     132,
@@ -597,17 +577,7 @@
   },
   "genesis_state_trie_root": "0x3b5e71c94abcb5198280cdcb0624e77d82b41b15da536722c567fac89a79857f",
   "contract_code": {
-    "0x956a984a679143e6c7c05e2bd14ee61c36fc0c3fb593872cb6e3cd0c7ca611f9": [
-      97,
-      195,
-      80,
-      96,
-      0,
-      96,
-      0,
-      55,
-      0
-    ],
+    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
     "0x4ead278d747a8b4810cf4fdde87d8a27893c63474e148d9f64de84784f389ec8": [
       96,
       0,
@@ -805,7 +775,17 @@
       80,
       86
     ],
-    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": []
+    "0x956a984a679143e6c7c05e2bd14ee61c36fc0c3fb593872cb6e3cd0c7ca611f9": [
+      97,
+      195,
+      80,
+      96,
+      0,
+      96,
+      0,
+      55,
+      0
+    ]
   },
   "block_metadata": {
     "block_beneficiary": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",

@@ -1,27 +1,7 @@
 {
   "txn_number_before": "0x0",
   "gas_used_before": "0x0",
-  "block_bloom_before": [
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0"
-  ],
   "gas_used_after": "0xec41d0c0",
-  "block_bloom_after": [
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0"
-  ],
   "signed_txn": [
     248,
     97,
@@ -557,51 +537,6 @@
     },
     "storage_tries": [
       [
-        "0xbdb13292a07216af498af9a6ded63412e36e27e36bc7b44fb6ad836e6804288a",
-        {
-          "node": {
-            "Leaf": {
-              "nibbles": {
-                "count": 64,
-                "packed": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
-              },
-              "value": [
-                130,
-                96,
-                167
-              ]
-            }
-          },
-          "hash": null
-        }
-      ],
-      [
-        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
-        {
-          "node": "Empty",
-          "hash": null
-        }
-      ],
-      [
-        "0xef26a6e58ca549d8afd266bada1b0b3875ed8a59bf1bbd087882dd52ad65c5a1",
-        {
-          "node": {
-            "Leaf": {
-              "nibbles": {
-                "count": 64,
-                "packed": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
-              },
-              "value": [
-                130,
-                96,
-                167
-              ]
-            }
-          },
-          "hash": null
-        }
-      ],
-      [
         "0xf057b39b049c7df5dfa86c4b0869abe798cef059571a5a1e5bbf5168cf6c097b",
         {
           "node": {
@@ -995,6 +930,51 @@
           },
           "hash": null
         }
+      ],
+      [
+        "0xbdb13292a07216af498af9a6ded63412e36e27e36bc7b44fb6ad836e6804288a",
+        {
+          "node": {
+            "Leaf": {
+              "nibbles": {
+                "count": 64,
+                "packed": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+              },
+              "value": [
+                130,
+                96,
+                167
+              ]
+            }
+          },
+          "hash": null
+        }
+      ],
+      [
+        "0xef26a6e58ca549d8afd266bada1b0b3875ed8a59bf1bbd087882dd52ad65c5a1",
+        {
+          "node": {
+            "Leaf": {
+              "nibbles": {
+                "count": 64,
+                "packed": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+              },
+              "value": [
+                130,
+                96,
+                167
+              ]
+            }
+          },
+          "hash": null
+        }
+      ],
+      [
+        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
+        {
+          "node": "Empty",
+          "hash": null
+        }
       ]
     ]
   },
@@ -1005,14 +985,6 @@
   },
   "genesis_state_trie_root": "0xa3ad019358b4de52c19e20c19605a66609b47931d7e070a7c4ec36e9cf6a4c79",
   "contract_code": {
-    "0xe16c7676e74152f766b8d96c95401cd22b2893d05f0fb0ba21472383822be523": [
-      96,
-      29,
-      96,
-      0,
-      85,
-      0
-    ],
     "0xbf99c236fbbf72cf298d63e0482770d2d9d6ff63e2f74a8cb63b03a750e2efcc": [
       96,
       248,
@@ -1386,6 +1358,14 @@
       85,
       0
     ],
+    "0xe16c7676e74152f766b8d96c95401cd22b2893d05f0fb0ba21472383822be523": [
+      96,
+      29,
+      96,
+      0,
+      85,
+      0
+    ],
     "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": []
   },
   "block_metadata": {
@@ -1671,9 +1651,9 @@
     "cur_hash": "0x0000000000000000000000000000000000000000000000000000000000000000"
   },
   "addresses": [
+    "0xcccccccccccccccccccccccccccccccccccccccc",
     "0x8af6a7af30d840ba137e8f3f34d54cfb8beba6e2",
-    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
     "0x40f1299359ea754ac29eb2662a1900752bf8275f",
-    "0xcccccccccccccccccccccccccccccccccccccccc"
+    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
   ]
 }

@@ -1,27 +1,7 @@
 {
   "txn_number_before": "0x0",
   "gas_used_before": "0x0",
-  "block_bloom_before": [
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0"
-  ],
   "gas_used_after": "0x12a15",
-  "block_bloom_after": [
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0"
-  ],
   "signed_txn": [
     248,
     133,
@@ -599,14 +579,14 @@
         }
       ],
       [
-        "0x567941eae77d9d919f49937f23d29e2fd4726ffd0853588b93a0b0536a5ee51c",
+        "0xf057b39b049c7df5dfa86c4b0869abe798cef059571a5a1e5bbf5168cf6c097b",
         {
           "node": "Empty",
           "hash": null
         }
       ],
       [
-        "0xf057b39b049c7df5dfa86c4b0869abe798cef059571a5a1e5bbf5168cf6c097b",
+        "0x567941eae77d9d919f49937f23d29e2fd4726ffd0853588b93a0b0536a5ee51c",
         {
           "node": "Empty",
           "hash": null
@@ -621,6 +601,17 @@
   },
   "genesis_state_trie_root": "0xc4dbbffbc81c46081cb864dce4593053776e5fef4358c6f22dac0852789f2bd2",
   "contract_code": {
+    "0xbc36789e7a1e281436464229828f817d6612f7b477d66591ff96a9e064bcc98a": [
+      0
+    ],
+    "0xf6db30caba2e68fad0b8d43d5c002ad2937f7a94867e5b95ed9c11cbad991d69": [
+      97,
+      222,
+      87,
+      255,
+      0
+    ],
+    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
     "0x01d93eba1e609be539bf418c54c04095225d8df0dc8d82ee0e74dd01e003afbe": [
       96,
       255,
@@ -957,17 +948,6 @@
       1,
       85,
       0
-    ],
-    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
-    "0xbc36789e7a1e281436464229828f817d6612f7b477d66591ff96a9e064bcc98a": [
-      0
-    ],
-    "0xf6db30caba2e68fad0b8d43d5c002ad2937f7a94867e5b95ed9c11cbad991d69": [
-      97,
-      222,
-      87,
-      255,
-      0
     ]
   },
   "block_metadata": {
@@ -1255,7 +1235,7 @@
   "addresses": [
     "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
     "0x000000000000000000000000000000000000de57",
-    "0x000000000000000000000000000000000000ca11",
-    "0xcccccccccccccccccccccccccccccccccccccccc"
+    "0xcccccccccccccccccccccccccccccccccccccccc",
+    "0x000000000000000000000000000000000000ca11"
   ]
 }

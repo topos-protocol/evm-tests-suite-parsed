@@ -1,27 +1,7 @@
 {
   "txn_number_before": "0x0",
   "gas_used_before": "0x0",
-  "block_bloom_before": [
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0"
-  ],
   "gas_used_after": "0x1421b",
-  "block_bloom_after": [
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0"
-  ],
   "signed_txn": [
     248,
     96,
@@ -621,6 +601,20 @@
     },
     "storage_tries": [
       [
+        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
+        "0xc588c0b10aeee834a574f87d92bec0f53c70ee9ccbf3fa290bf1fc272b8cfd92",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
         "0xae8918f788316499cc7d525df6fb51522577e43a4ee453bfeac46d18c5f409f1",
         {
           "node": "Empty",
@@ -640,20 +634,6 @@
           "node": "Empty",
           "hash": null
         }
-      ],
-      [
-        "0xc588c0b10aeee834a574f87d92bec0f53c70ee9ccbf3fa290bf1fc272b8cfd92",
-        {
-          "node": "Empty",
-          "hash": null
-        }
-      ],
-      [
-        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
-        {
-          "node": "Empty",
-          "hash": null
-        }
       ]
     ]
   },
@@ -664,6 +644,7 @@
   },
   "genesis_state_trie_root": "0x3b4a5b9c5c5478428c164909d37eea354574423bd01ad605903820a8cb7d7d35",
   "contract_code": {
+    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
     "0xe6008584563d5e7fe63858fd5017312912ffbe0847dd9dbcb0ef1d3681b4f1ea": [
       17,
       34,
@@ -870,8 +851,7 @@
       6,
       85,
       0
-    ],
-    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": []
+    ]
   },
   "block_metadata": {
     "block_beneficiary": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
@@ -1156,10 +1136,10 @@
     "cur_hash": "0x0000000000000000000000000000000000000000000000000000000000000000"
   },
   "addresses": [
+    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+    "0xaaaf5374fce5edbc8e2a8697c15331677e6ebf0b",
     "0xdddf5374fce5edbc8e2a8697c15331677e6ebf0b",
     "0xcccf5374fce5edbc8e2a8697c15331677e6ebf0b",
-    "0xeeef5374fce5edbc8e2a8697c15331677e6ebf0b",
-    "0xaaaf5374fce5edbc8e2a8697c15331677e6ebf0b",
-    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+    "0xeeef5374fce5edbc8e2a8697c15331677e6ebf0b"
   ]
 }

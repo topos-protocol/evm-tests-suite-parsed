@@ -4,7 +4,7 @@ A collection of all the tests of the Ethereum official test suite, with Shanghai
 
 The JSON files consist in the `GenerationInputs` objets that are passed to the plonky2 zkEVM prover to generate proofs of Ethereum state transition.
 
-It is currently supporting plonky2 commit revision b9328815e666981d6485b0d8dc04160e93797993 and onwards.
+It is currently supporting plonky2 commit revision 5572da30d7ab818594cf8659839fa832dfcf1d3d and onwards.
 
 ## Usage
 

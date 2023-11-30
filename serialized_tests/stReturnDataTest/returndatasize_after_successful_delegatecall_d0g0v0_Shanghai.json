@@ -1,27 +1,7 @@
 {
   "txn_number_before": "0x0",
   "gas_used_before": "0x0",
-  "block_bloom_before": [
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0"
-  ],
   "gas_used_after": "0x6fe2",
-  "block_bloom_after": [
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0"
-  ],
   "signed_txn": [
     248,
     98,
@@ -464,6 +444,13 @@
         }
       ],
       [
+        "0xc5b6e52f52fba98eb72592089d858d06f258aba915c994662489a03e35e97cc8",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
         "0xbd2b01afcd27800b54d2179edc49e2bffde5078bb6d0b204694169b1643fb108",
         {
           "node": {
@@ -511,13 +498,6 @@
           },
           "hash": null
         }
-      ],
-      [
-        "0xc5b6e52f52fba98eb72592089d858d06f258aba915c994662489a03e35e97cc8",
-        {
-          "node": "Empty",
-          "hash": null
-        }
       ]
     ]
   },
@@ -528,18 +508,7 @@
   },
   "genesis_state_trie_root": "0xcf67af550fe50d91cf7d0d227bcd54aae2065ae05ae0b26aea0033d2fbee21a5",
   "contract_code": {
-    "0x1ab25ed0e3d0f024086ed40fa713f0dba14e31cca0ab7f1aeeb5f3c852b63bad": [
-      51,
-      96,
-      0,
-      82,
-      96,
-      20,
-      96,
-      0,
-      243,
-      0
-    ],
+    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
     "0x5d162235e4c9d8d8246229259c83ddc47ea2b96524cc08a73ca1767545b99f4e": [
       96,
       0,
@@ -581,7 +550,18 @@
       85,
       0
     ],
-    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": []
+    "0x1ab25ed0e3d0f024086ed40fa713f0dba14e31cca0ab7f1aeeb5f3c852b63bad": [
+      51,
+      96,
+      0,
+      82,
+      96,
+      20,
+      96,
+      0,
+      243,
+      0
+    ]
   },
   "block_metadata": {
     "block_beneficiary": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
@@ -867,7 +847,7 @@
   },
   "addresses": [
     "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
-    "0x0f572e5295c57f15886f9b263e2f6d2d6c7b5ec6",
-    "0x1000000000000000000000000000000000000002"
+    "0x1000000000000000000000000000000000000002",
+    "0x0f572e5295c57f15886f9b263e2f6d2d6c7b5ec6"
   ]
 }

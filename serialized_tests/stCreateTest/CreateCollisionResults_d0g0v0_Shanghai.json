@@ -1,27 +1,7 @@
 {
   "txn_number_before": "0x0",
   "gas_used_before": "0x0",
-  "block_bloom_before": [
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0"
-  ],
   "gas_used_after": "0xec41d0b5",
-  "block_bloom_after": [
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0"
-  ],
   "signed_txn": [
     248,
     97,
@@ -557,6 +537,25 @@
     },
     "storage_tries": [
       [
+        "0xef26a6e58ca549d8afd266bada1b0b3875ed8a59bf1bbd087882dd52ad65c5a1",
+        {
+          "node": {
+            "Leaf": {
+              "nibbles": {
+                "count": 64,
+                "packed": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+              },
+              "value": [
+                130,
+                96,
+                167
+              ]
+            }
+          },
+          "hash": null
+        }
+      ],
+      [
         "0xbdb13292a07216af498af9a6ded63412e36e27e36bc7b44fb6ad836e6804288a",
         {
           "node": {
@@ -972,25 +971,6 @@
                 }
               ],
               "value": []
-            }
-          },
-          "hash": null
-        }
-      ],
-      [
-        "0xef26a6e58ca549d8afd266bada1b0b3875ed8a59bf1bbd087882dd52ad65c5a1",
-        {
-          "node": {
-            "Leaf": {
-              "nibbles": {
-                "count": 64,
-                "packed": "0x290decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
-              },
-              "value": [
-                130,
-                96,
-                167
-              ]
             }
           },
           "hash": null
@@ -1671,9 +1651,9 @@
     "cur_hash": "0x0000000000000000000000000000000000000000000000000000000000000000"
   },
   "addresses": [
+    "0x40f1299359ea754ac29eb2662a1900752bf8275f",
     "0x8af6a7af30d840ba137e8f3f34d54cfb8beba6e2",
     "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
-    "0xcccccccccccccccccccccccccccccccccccccccc",
-    "0x40f1299359ea754ac29eb2662a1900752bf8275f"
+    "0xcccccccccccccccccccccccccccccccccccccccc"
   ]
 }

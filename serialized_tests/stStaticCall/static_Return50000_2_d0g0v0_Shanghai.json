@@ -1,27 +1,7 @@
 {
   "txn_number_before": "0x0",
   "gas_used_before": "0x0",
-  "block_bloom_before": [
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0"
-  ],
   "gas_used_after": "0xe90fc8",
-  "block_bloom_after": [
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0"
-  ],
   "signed_txn": [
     248,
     97,
@@ -569,14 +549,14 @@
         }
       ],
       [
-        "0x4032d85e4914251b9d3a03ebf18a8bd768af46c5e34b379d258f7f2366c06077",
+        "0xc588c0b10aeee834a574f87d92bec0f53c70ee9ccbf3fa290bf1fc272b8cfd92",
         {
           "node": "Empty",
           "hash": null
         }
       ],
       [
-        "0xc588c0b10aeee834a574f87d92bec0f53c70ee9ccbf3fa290bf1fc272b8cfd92",
+        "0x4032d85e4914251b9d3a03ebf18a8bd768af46c5e34b379d258f7f2366c06077",
         {
           "node": "Empty",
           "hash": null
@@ -598,6 +578,23 @@
   },
   "genesis_state_trie_root": "0xd370cd51c1de204119975833959059cd10acc512a6c0163aeebaa50734278cd6",
   "contract_code": {
+    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
+    "0xdbb29c5d75229b1bd8ea2345b132b449c645f42bce1897561869d0b4fdc5d762": [
+      97,
+      195,
+      79,
+      53,
+      96,
+      0,
+      82,
+      96,
+      1,
+      96,
+      0,
+      81,
+      243,
+      0
+    ],
     "0x6e8321ec5189867c4ff550f0c24ddef6743887d9d1b02deff2ddc59fd1ac38d5": [
       96,
       0,
@@ -642,7 +639,6 @@
       85,
       0
     ],
-    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
     "0x6c18cccd098f679986b899068202567baa5ed721a641d23aecb5f4194fa82b72": [
       91,
       97,
@@ -712,22 +708,6 @@
       96,
       1,
       85,
-      0
-    ],
-    "0xdbb29c5d75229b1bd8ea2345b132b449c645f42bce1897561869d0b4fdc5d762": [
-      97,
-      195,
-      79,
-      53,
-      96,
-      0,
-      82,
-      96,
-      1,
-      96,
-      0,
-      81,
-      243,
       0
     ]
   },
@@ -1015,8 +995,8 @@
   },
   "addresses": [
     "0x10bf5374fce5edbc8e2a8697c15331677e6ebf0b",
-    "0xbbbf5374fce5edbc8e2a8697c15331677e6ebf0b",
     "0xaaaf5374fce5edbc8e2a8697c15331677e6ebf0b",
+    "0xbbbf5374fce5edbc8e2a8697c15331677e6ebf0b",
     "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
   ]
 }

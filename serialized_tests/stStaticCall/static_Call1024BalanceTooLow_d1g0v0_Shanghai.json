@@ -1,27 +1,7 @@
 {
   "txn_number_before": "0x0",
   "gas_used_before": "0x0",
-  "block_bloom_before": [
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0"
-  ],
   "gas_used_after": "0x38093",
-  "block_bloom_after": [
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0",
-    "0x0"
-  ],
   "signed_txn": [
     248,
     131,
@@ -660,14 +640,14 @@
     },
     "storage_tries": [
       [
-        "0x4032d85e4914251b9d3a03ebf18a8bd768af46c5e34b379d258f7f2366c06077",
+        "0xc588c0b10aeee834a574f87d92bec0f53c70ee9ccbf3fa290bf1fc272b8cfd92",
         {
           "node": "Empty",
           "hash": null
         }
       ],
       [
-        "0xc588c0b10aeee834a574f87d92bec0f53c70ee9ccbf3fa290bf1fc272b8cfd92",
+        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
         {
           "node": "Empty",
           "hash": null
@@ -681,14 +661,14 @@
         }
       ],
       [
-        "0xa0c2b5cc9b701990b3fc9b1f3d385b6f0a9250dcdc5250a7e11f3bd08118ca78",
+        "0x4032d85e4914251b9d3a03ebf18a8bd768af46c5e34b379d258f7f2366c06077",
         {
           "node": "Empty",
           "hash": null
         }
       ],
       [
-        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
+        "0xa0c2b5cc9b701990b3fc9b1f3d385b6f0a9250dcdc5250a7e11f3bd08118ca78",
         {
           "node": "Empty",
           "hash": null
@@ -703,6 +683,7 @@
   },
   "genesis_state_trie_root": "0xfc163e012f1a0a594842f0470edbb909af8a0e94516688ce7f225c9de6c8de44",
   "contract_code": {
+    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
     "0x39df2c108c31904bf7798c2ee1858648bdc27c9efa377d8a72bca203d577ae93": [
       96,
       1,
@@ -756,7 +737,6 @@
       82,
       0
     ],
-    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
     "0xf0997b6e44e8d46ac44edf3681ecc5a5bf2f7429bcd7d47103c3c40c11502dff": [
       96,
       1,
@@ -1119,10 +1099,10 @@
     "cur_hash": "0x0000000000000000000000000000000000000000000000000000000000000000"
   },
   "addresses": [
-    "0xbbbf5374fce5edbc8e2a8697c15331677e6ebf0b",
     "0xaaaf5374fce5edbc8e2a8697c15331677e6ebf0b",
+    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
     "0x1000000000000000000000000000000000000000",
-    "0xcbbf5374fce5edbc8e2a8697c15331677e6ebf0b",
-    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
+    "0xbbbf5374fce5edbc8e2a8697c15331677e6ebf0b",
+    "0xcbbf5374fce5edbc8e2a8697c15331677e6ebf0b"
   ]
 }
