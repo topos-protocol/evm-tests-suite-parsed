@@ -37,3 +37,8 @@ fn main() -> anyhow::Result<()> {
     verify_proof(&all_stark, proof, &config)
 }
 ```
+
+
+## License
+
+This repository is licensed under the terms of the MIT license ([LICENSE-MIT](LICENSE-MIT) or <http://opensource.org/licenses/MIT>).
