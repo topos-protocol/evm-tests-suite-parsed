@@ -725,13 +725,6 @@
     },
     "storage_tries": [
       [
-        "0x11be2f491ec06b7fc78a90e0e8d0e6b0e7cd0a1ced393944813894a2d4a3a9be",
-        {
-          "node": "Empty",
-          "hash": null
-        }
-      ],
-      [
         "0x567941eae77d9d919f49937f23d29e2fd4726ffd0853588b93a0b0536a5ee51c",
         {
           "node": "Empty",
@@ -740,6 +733,20 @@
       ],
       [
         "0xe292671e0b6bddfc3324e9d83617168abfeb225342927c664d6d6d3310ecc7ac",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
+        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
+        "0x11be2f491ec06b7fc78a90e0e8d0e6b0e7cd0a1ced393944813894a2d4a3a9be",
         {
           "node": "Empty",
           "hash": null
@@ -763,13 +770,6 @@
           },
           "hash": null
         }
-      ],
-      [
-        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
-        {
-          "node": "Empty",
-          "hash": null
-        }
       ]
     ]
   },
@@ -778,7 +778,7 @@
     "transactions_root": "0x9471c2ee60d6b6ba62966a2fe21ee45c968ac5b320e6e5a358b35c8e06b14a59",
     "receipts_root": "0x3f7121a7c46beb3b436e80cbf398483443876fdfce093f9abfc190041b7860f5"
   },
-  "genesis_state_trie_root": "0xa60ac099675893ec372a001e05c3e10d5ed7e8a903400e24a3768dc2871e6d5f",
+  "checkpoint_state_trie_root": "0xa60ac099675893ec372a001e05c3e10d5ed7e8a903400e24a3768dc2871e6d5f",
   "contract_code": {
     "0x4c8596e7e68281a2d0c49b67bea2f0092807b0af8026301a3f894bf4be827f7f": [
       90,
@@ -2093,6 +2093,7 @@
       85,
       0
     ],
+    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
     "0xbc36789e7a1e281436464229828f817d6612f7b477d66591ff96a9e064bcc98a": [
       0
     ],
@@ -2109,8 +2110,7 @@
       17,
       49,
       0
-    ],
-    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": []
+    ]
   },
   "block_metadata": {
     "block_beneficiary": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
@@ -2393,12 +2393,5 @@
       "0x0000000000000000000000000000000000000000000000000000000000000000"
     ],
     "cur_hash": "0x0000000000000000000000000000000000000000000000000000000000000000"
-  },
-  "addresses": [
-    "0x00000000000000000000000000000000ca110100",
-    "0x000000000000000000000000000000000000ca11",
-    "0x000000000000000000000000000000ca1100ca11",
-    "0xcccccccccccccccccccccccccccccccccccccccc",
-    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
-  ]
+  }
 }

@@ -372,14 +372,14 @@
     },
     "storage_tries": [
       [
-        "0x0fbc62ba90dec43ec1d6016f9dd39dc324e967f2a3459a78281d1f4b2ba962a6",
+        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
         {
           "node": "Empty",
           "hash": null
         }
       ],
       [
-        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
+        "0x0fbc62ba90dec43ec1d6016f9dd39dc324e967f2a3459a78281d1f4b2ba962a6",
         {
           "node": "Empty",
           "hash": null
@@ -392,7 +392,7 @@
     "transactions_root": "0xcf20950fa1d8c3b86e28e835b6f46e696f9f89679f4f11cbd59f43a745f190a1",
     "receipts_root": "0x51cc7633e2bf5100339ac1f4bb2f98c5c7209783eb70cef08a2239cd35bfdcb7"
   },
-  "genesis_state_trie_root": "0x76cc160b7aacaa3b91586ec5fed45c192f25b201ae409a3085f05c3b2fc0f0a7",
+  "checkpoint_state_trie_root": "0x76cc160b7aacaa3b91586ec5fed45c192f25b201ae409a3085f05c3b2fc0f0a7",
   "contract_code": {
     "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
     "0x9c3e4905725aae0434b91b72b84ca71c17d6c9b112e8299762685962918a98a4": [
@@ -831,9 +831,5 @@
       "0x0000000000000000000000000000000000000000000000000000000000000000"
     ],
     "cur_hash": "0x0000000000000000000000000000000000000000000000000000000000000000"
-  },
-  "addresses": [
-    "0x095e7baea6a6c7c4c2dfeb977efac326af552d87",
-    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
-  ]
+  }
 }

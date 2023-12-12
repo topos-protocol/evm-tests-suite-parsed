@@ -543,14 +543,14 @@
     },
     "storage_tries": [
       [
-        "0xc11a23b3e38e5ae06f71270f52726b0f00df679969c96fc8542149987dd139b4",
+        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
         {
           "node": "Empty",
           "hash": null
         }
       ],
       [
-        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
+        "0xc11a23b3e38e5ae06f71270f52726b0f00df679969c96fc8542149987dd139b4",
         {
           "node": "Empty",
           "hash": null
@@ -676,31 +676,9 @@
     "transactions_root": "0x24ba99c2f4a30b098fbb28b69bb33ed99f046e676338ba895e70b1827c852cc8",
     "receipts_root": "0xb5cf34634a5aa210c9dc6e2a8b18064284ca8d6807d4433bf30f8739cacacb83"
   },
-  "genesis_state_trie_root": "0xcd38a5428dbf8c1366a2f0a0e59cc508435948009e55229994cb80ac287eb0f0",
+  "checkpoint_state_trie_root": "0xcd38a5428dbf8c1366a2f0a0e59cc508435948009e55229994cb80ac287eb0f0",
   "contract_code": {
     "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
-    "0x34416c74b24b304f7243d2cafd338a66534b0d97054f6a5a555a314fa0d0a55e": [
-      96,
-      0,
-      25,
-      96,
-      0,
-      82,
-      96,
-      32,
-      97,
-      1,
-      0,
-      128,
-      57,
-      97,
-      1,
-      0,
-      81,
-      96,
-      0,
-      243
-    ],
     "0xb24bd3a6440ef16b6d4545293f062efd27072b3aeab1a95c1387af12c16b0de3": [
       90,
       96,
@@ -798,6 +776,28 @@
       96,
       50,
       86
+    ],
+    "0x34416c74b24b304f7243d2cafd338a66534b0d97054f6a5a555a314fa0d0a55e": [
+      96,
+      0,
+      25,
+      96,
+      0,
+      82,
+      96,
+      32,
+      97,
+      1,
+      0,
+      128,
+      57,
+      97,
+      1,
+      0,
+      81,
+      96,
+      0,
+      243
     ]
   },
   "block_metadata": {
@@ -1081,10 +1081,5 @@
       "0x0000000000000000000000000000000000000000000000000000000000000000"
     ],
     "cur_hash": "0x0000000000000000000000000000000000000000000000000000000000000000"
-  },
-  "addresses": [
-    "0x000000000000000000000000000000000000c0de",
-    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
-    "0xcccccccccccccccccccccccccccccccccccccccc"
-  ]
+  }
 }

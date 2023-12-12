@@ -791,7 +791,7 @@
     },
     "storage_tries": [
       [
-        "0xcf90776785c210b803c5899a936666a2b0c9e030f9240146d3c54c8420973a91",
+        "0x0fbc62ba90dec43ec1d6016f9dd39dc324e967f2a3459a78281d1f4b2ba962a6",
         {
           "node": "Empty",
           "hash": null
@@ -805,7 +805,7 @@
         }
       ],
       [
-        "0x0fbc62ba90dec43ec1d6016f9dd39dc324e967f2a3459a78281d1f4b2ba962a6",
+        "0xcf90776785c210b803c5899a936666a2b0c9e030f9240146d3c54c8420973a91",
         {
           "node": "Empty",
           "hash": null
@@ -818,8 +818,28 @@
     "transactions_root": "0x365b4f0f00dffca9f87b32cbd9f220ebfc9906158d72ef62b3de8fc91d01b756",
     "receipts_root": "0x2d3227f47149fc2818934c77ace4d78de4b03b8b62361301d94857be811d9acc"
   },
-  "genesis_state_trie_root": "0x695ec2277b243d6dc6bd7f7cb0a9310da38f95316cd74af4b9bb8fb3a1c91b2b",
+  "checkpoint_state_trie_root": "0x695ec2277b243d6dc6bd7f7cb0a9310da38f95316cd74af4b9bb8fb3a1c91b2b",
   "contract_code": {
+    "0xdb94dc4aab9b6a1a11956906ea34f3252f394576aece12199b23b269bb2738ab": [
+      96,
+      0,
+      53,
+      84,
+      21,
+      96,
+      9,
+      87,
+      0,
+      91,
+      96,
+      32,
+      53,
+      96,
+      0,
+      53,
+      85
+    ],
+    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
     "0x73da58dcae86273ad8f447a9ce997f9c8772b8f781c93d038cb157f73526ad25": [
       127,
       255,
@@ -1105,26 +1125,6 @@
       0,
       81,
       85
-    ],
-    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
-    "0xdb94dc4aab9b6a1a11956906ea34f3252f394576aece12199b23b269bb2738ab": [
-      96,
-      0,
-      53,
-      84,
-      21,
-      96,
-      9,
-      87,
-      0,
-      91,
-      96,
-      32,
-      53,
-      96,
-      0,
-      53,
-      85
     ]
   },
   "block_metadata": {
@@ -1408,10 +1408,5 @@
       "0x0000000000000000000000000000000000000000000000000000000000000000"
     ],
     "cur_hash": "0x0000000000000000000000000000000000000000000000000000000000000000"
-  },
-  "addresses": [
-    "0x945304eb96065b2a98b57a48a06ae28d285a71b5",
-    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
-    "0x095e7baea6a6c7c4c2dfeb977efac326af552d87"
-  ]
+  }
 }

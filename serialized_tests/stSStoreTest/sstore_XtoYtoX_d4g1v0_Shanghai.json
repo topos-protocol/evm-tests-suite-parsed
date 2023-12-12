@@ -584,6 +584,13 @@
         }
       ],
       [
+        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
         "0x35f2ace24bb0b352ff737e6d79691d76500b98613f3507e9d83237c064161b3a",
         {
           "node": {
@@ -606,13 +613,6 @@
           "node": "Empty",
           "hash": null
         }
-      ],
-      [
-        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
-        {
-          "node": "Empty",
-          "hash": null
-        }
       ]
     ]
   },
@@ -621,8 +621,21 @@
     "transactions_root": "0x5efdcdac5c3d211a968c83e2f2b157afcd59fe3666bf8c0b7b0716ecf2ce71a8",
     "receipts_root": "0xc1d00784d147e1303e6c41740d0b83682cd5a5cc16ac5d2cc8cd4facad3c6413"
   },
-  "genesis_state_trie_root": "0x0b3a9f1f7940cdfe1d9712b90634f9f31c2ef613e8478525762ac57cfbc4f3a2",
+  "checkpoint_state_trie_root": "0x0b3a9f1f7940cdfe1d9712b90634f9f31c2ef613e8478525762ac57cfbc4f3a2",
   "contract_code": {
+    "0xb168af0f3f6773a07968a3a024ac346b16e1ce0c1213f4e115b59efc858040cb": [
+      96,
+      2,
+      96,
+      1,
+      85,
+      96,
+      1,
+      96,
+      1,
+      85,
+      0
+    ],
     "0xcf9c630e859350e379cf6c6b2ece96bc97c9b025b01644112c5425f012a5ac90": [
       96,
       1,
@@ -791,20 +804,7 @@
       85,
       0
     ],
-    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
-    "0xb168af0f3f6773a07968a3a024ac346b16e1ce0c1213f4e115b59efc858040cb": [
-      96,
-      2,
-      96,
-      1,
-      85,
-      96,
-      1,
-      96,
-      1,
-      85,
-      0
-    ]
+    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": []
   },
   "block_metadata": {
     "block_beneficiary": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
@@ -1087,11 +1087,5 @@
       "0x0000000000000000000000000000000000000000000000000000000000000000"
     ],
     "cur_hash": "0x0000000000000000000000000000000000000000000000000000000000000000"
-  },
-  "addresses": [
-    "0xc000000000000000000000000000000000000000",
-    "0xb000000000000000000000000000000000000000",
-    "0xdea0000000000000000000000000000000000000",
-    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
-  ]
+  }
 }

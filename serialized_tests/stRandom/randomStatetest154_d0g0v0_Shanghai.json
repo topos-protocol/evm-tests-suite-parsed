@@ -949,7 +949,7 @@
     },
     "storage_tries": [
       [
-        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
+        "0x0fbc62ba90dec43ec1d6016f9dd39dc324e967f2a3459a78281d1f4b2ba962a6",
         {
           "node": "Empty",
           "hash": null
@@ -963,7 +963,7 @@
         }
       ],
       [
-        "0x0fbc62ba90dec43ec1d6016f9dd39dc324e967f2a3459a78281d1f4b2ba962a6",
+        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
         {
           "node": "Empty",
           "hash": null
@@ -976,27 +976,8 @@
     "transactions_root": "0x98636d641a449319ae80856cd6e4783f2701f610fcd4a22ee879ad4b7fd81045",
     "receipts_root": "0x31cb4b4991ae4eb28c558789f3c4b3ec206c6badf5762fc7e78dc17537296244"
   },
-  "genesis_state_trie_root": "0xb6c7e03032e80e6711063db6007b730b0affb5530db4940a277d2df36360b341",
+  "checkpoint_state_trie_root": "0xb6c7e03032e80e6711063db6007b730b0affb5530db4940a277d2df36360b341",
   "contract_code": {
-    "0xdb94dc4aab9b6a1a11956906ea34f3252f394576aece12199b23b269bb2738ab": [
-      96,
-      0,
-      53,
-      84,
-      21,
-      96,
-      9,
-      87,
-      0,
-      91,
-      96,
-      32,
-      53,
-      96,
-      0,
-      53,
-      85
-    ],
     "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
     "0xc39370516fac1ab5dae528cbef515e99c7ea0be90ad406c6d745db3961c13600": [
       125,
@@ -1098,6 +1079,25 @@
       145,
       238,
       241
+    ],
+    "0xdb94dc4aab9b6a1a11956906ea34f3252f394576aece12199b23b269bb2738ab": [
+      96,
+      0,
+      53,
+      84,
+      21,
+      96,
+      9,
+      87,
+      0,
+      91,
+      96,
+      32,
+      53,
+      96,
+      0,
+      53,
+      85
     ]
   },
   "block_metadata": {
@@ -1381,10 +1381,5 @@
       "0x0000000000000000000000000000000000000000000000000000000000000000"
     ],
     "cur_hash": "0x0000000000000000000000000000000000000000000000000000000000000000"
-  },
-  "addresses": [
-    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
-    "0x945304eb96065b2a98b57a48a06ae28d285a71b5",
-    "0x095e7baea6a6c7c4c2dfeb977efac326af552d87"
-  ]
+  }
 }

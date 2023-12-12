@@ -520,7 +520,14 @@
     },
     "storage_tries": [
       [
-        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
+        "0xbd2b01afcd27800b54d2179edc49e2bffde5078bb6d0b204694169b1643fb108",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
+        "0xc5b6e52f52fba98eb72592089d858d06f258aba915c994662489a03e35e97cc8",
         {
           "node": "Empty",
           "hash": null
@@ -548,14 +555,7 @@
         }
       ],
       [
-        "0xbd2b01afcd27800b54d2179edc49e2bffde5078bb6d0b204694169b1643fb108",
-        {
-          "node": "Empty",
-          "hash": null
-        }
-      ],
-      [
-        "0xc5b6e52f52fba98eb72592089d858d06f258aba915c994662489a03e35e97cc8",
+        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
         {
           "node": "Empty",
           "hash": null
@@ -568,9 +568,8 @@
     "transactions_root": "0x739f7b2f07223582d17f3a23a2351cdb9f3a218b9dd9dbb2b7b9b531efdfa7d0",
     "receipts_root": "0x98931cb85a46663241ec59eefa228064e3464c3b454fc603a37efa935da59ec9"
   },
-  "genesis_state_trie_root": "0x9680f976da3ae531dd94537b186839b574b31b5c4b8b3174c3ed17a881d2ff3d",
+  "checkpoint_state_trie_root": "0x9680f976da3ae531dd94537b186839b574b31b5c4b8b3174c3ed17a881d2ff3d",
   "contract_code": {
-    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
     "0xe1e12b0b9eecc05be661d5195cc1d52a486c29b72739debf497211731fffd06d": [
       96,
       0,
@@ -617,7 +616,8 @@
     ],
     "0xd03d757462cd3c828bf24d0fbdebc852dae2b8a808805773442109c615167140": [
       253
-    ]
+    ],
+    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": []
   },
   "block_metadata": {
     "block_beneficiary": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
@@ -900,11 +900,5 @@
       "0x0000000000000000000000000000000000000000000000000000000000000000"
     ],
     "cur_hash": "0x0000000000000000000000000000000000000000000000000000000000000000"
-  },
-  "addresses": [
-    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
-    "0x1000000000000000000000000000000000000001",
-    "0x0f572e5295c57f15886f9b263e2f6d2d6c7b5ec6",
-    "0x1000000000000000000000000000000000000002"
-  ]
+  }
 }

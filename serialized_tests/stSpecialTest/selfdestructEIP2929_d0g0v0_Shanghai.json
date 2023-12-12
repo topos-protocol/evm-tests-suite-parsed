@@ -591,14 +591,14 @@
     },
     "storage_tries": [
       [
-        "0x528b55564e8518548e42b534da3a526179b820f264ee7c6929d00b0b6a31cfc2",
+        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
         {
           "node": "Empty",
           "hash": null
         }
       ],
       [
-        "0x888b07e0468e69c0576c4ab1ada75645dffa73f9f4aae939530a0b39dc53dd2b",
+        "0x528b55564e8518548e42b534da3a526179b820f264ee7c6929d00b0b6a31cfc2",
         {
           "node": "Empty",
           "hash": null
@@ -612,14 +612,14 @@
         }
       ],
       [
-        "0xfe87802413d7ef2c0aca6eaaa9d44d0c79ccf07d8808832e4f05d1441a4f7af8",
+        "0x888b07e0468e69c0576c4ab1ada75645dffa73f9f4aae939530a0b39dc53dd2b",
         {
           "node": "Empty",
           "hash": null
         }
       ],
       [
-        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
+        "0xfe87802413d7ef2c0aca6eaaa9d44d0c79ccf07d8808832e4f05d1441a4f7af8",
         {
           "node": "Empty",
           "hash": null
@@ -632,7 +632,7 @@
     "transactions_root": "0x4f1506d0fbbcbc390d81c14dd130285862335028156f29b243cd0bb21b70296a",
     "receipts_root": "0x53a9cc957901fb44f94253b2a2f80a34405405ae16fb881cf010b28c942884db"
   },
-  "genesis_state_trie_root": "0xc6a1fcf0f86b5bc06e0485d74c096af196ba16063ef4dfe8e47fc138add10dfe",
+  "checkpoint_state_trie_root": "0xc6a1fcf0f86b5bc06e0485d74c096af196ba16063ef4dfe8e47fc138add10dfe",
   "contract_code": {
     "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
     "0x878b50e0c6983a748c202d75daeb722ad9b6ef04420600db343c7f3ce8b609e6": [
@@ -1274,12 +1274,5 @@
       "0x0000000000000000000000000000000000000000000000000000000000000000"
     ],
     "cur_hash": "0x0000000000000000000000000000000000000000000000000000000000000000"
-  },
-  "addresses": [
-    "0x00000000000000000000000000000000000000aa",
-    "0x000000000000000000000000000000000000c411",
-    "0x00000000000000000000000000000000000000cc",
-    "0x000000000000000000000000000000000000dead",
-    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
-  ]
+  }
 }

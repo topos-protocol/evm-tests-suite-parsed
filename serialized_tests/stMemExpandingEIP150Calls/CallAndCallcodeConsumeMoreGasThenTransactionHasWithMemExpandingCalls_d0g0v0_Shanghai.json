@@ -430,13 +430,6 @@
     },
     "storage_tries": [
       [
-        "0xf1c0a30bf20e7a314f339f0d4d39f9d9d9599546a98318cdd651d8961f0cea68",
-        {
-          "node": "Empty",
-          "hash": null
-        }
-      ],
-      [
         "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
         {
           "node": "Empty",
@@ -449,6 +442,13 @@
           "node": "Empty",
           "hash": null
         }
+      ],
+      [
+        "0xf1c0a30bf20e7a314f339f0d4d39f9d9d9599546a98318cdd651d8961f0cea68",
+        {
+          "node": "Empty",
+          "hash": null
+        }
       ]
     ]
   },
@@ -457,9 +457,15 @@
     "transactions_root": "0xfafb034a78f3568ebc37337168cfa75a68f32679b7f639ba47c99a4e248164a8",
     "receipts_root": "0xaaed6c9873518907017c3c65ea94a14a50671e1b411652c1660baca8e92e59f9"
   },
-  "genesis_state_trie_root": "0x5b7c513c8b8578c6d742a85e8905f0718b4428727379f1598084b5679f5a0e59",
+  "checkpoint_state_trie_root": "0x5b7c513c8b8578c6d742a85e8905f0718b4428727379f1598084b5679f5a0e59",
   "contract_code": {
-    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
+    "0xc352933840130e9d8c3a75ac634e6820b8a4063a3b97cd5bb481b689869c9198": [
+      96,
+      18,
+      96,
+      0,
+      85
+    ],
     "0x40fabfb82b2ac009eb2cdac0f32fc764b89f1ba7503086b53b1dfd263739864e": [
       90,
       96,
@@ -544,13 +550,7 @@
       10,
       85
     ],
-    "0xc352933840130e9d8c3a75ac634e6820b8a4063a3b97cd5bb481b689869c9198": [
-      96,
-      18,
-      96,
-      0,
-      85
-    ]
+    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": []
   },
   "block_metadata": {
     "block_beneficiary": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
@@ -833,10 +833,5 @@
       "0x0000000000000000000000000000000000000000000000000000000000000000"
     ],
     "cur_hash": "0x0000000000000000000000000000000000000000000000000000000000000000"
-  },
-  "addresses": [
-    "0x1000000000000000000000000000000000000103",
-    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
-    "0xb94f5374fce5edbc8e2a8697c15331677e6ebf0b"
-  ]
+  }
 }

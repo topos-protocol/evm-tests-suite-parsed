@@ -570,7 +570,31 @@
     },
     "storage_tries": [
       [
+        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
         "0x479e90c549bf6f72d0c2bb629efaa82a9a833d12f842efe6f2c7628e64ada257",
+        {
+          "node": {
+            "Leaf": {
+              "nibbles": {
+                "count": 64,
+                "packed": "0xb10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cf6"
+              },
+              "value": [
+                2
+              ]
+            }
+          },
+          "hash": null
+        }
+      ],
+      [
+        "0x35f2ace24bb0b352ff737e6d79691d76500b98613f3507e9d83237c064161b3a",
         {
           "node": {
             "Leaf": {
@@ -592,30 +616,6 @@
           "node": "Empty",
           "hash": null
         }
-      ],
-      [
-        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
-        {
-          "node": "Empty",
-          "hash": null
-        }
-      ],
-      [
-        "0x35f2ace24bb0b352ff737e6d79691d76500b98613f3507e9d83237c064161b3a",
-        {
-          "node": {
-            "Leaf": {
-              "nibbles": {
-                "count": 64,
-                "packed": "0xb10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cf6"
-              },
-              "value": [
-                2
-              ]
-            }
-          },
-          "hash": null
-        }
       ]
     ]
   },
@@ -624,7 +624,7 @@
     "transactions_root": "0x918cb14a5d66e160a36de659d12a869cb4104b6ed900a11939ae764dfd383fcb",
     "receipts_root": "0xe59ab8a841673eae529f2c4e7356ae11589e228f98300e5634de145e1ff05a4e"
   },
-  "genesis_state_trie_root": "0x41694fbd915d1bb9147227f13722a9158fdcd13008fdb917757b6140036b9a62",
+  "checkpoint_state_trie_root": "0x41694fbd915d1bb9147227f13722a9158fdcd13008fdb917757b6140036b9a62",
   "contract_code": {
     "0xb168af0f3f6773a07968a3a024ac346b16e1ce0c1213f4e115b59efc858040cb": [
       96,
@@ -1090,11 +1090,5 @@
       "0x0000000000000000000000000000000000000000000000000000000000000000"
     ],
     "cur_hash": "0x0000000000000000000000000000000000000000000000000000000000000000"
-  },
-  "addresses": [
-    "0xc000000000000000000000000000000000000000",
-    "0xdea0000000000000000000000000000000000000",
-    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
-    "0xb000000000000000000000000000000000000000"
-  ]
+  }
 }

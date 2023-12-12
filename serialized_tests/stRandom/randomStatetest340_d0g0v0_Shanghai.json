@@ -750,14 +750,14 @@
         }
       ],
       [
-        "0x0fbc62ba90dec43ec1d6016f9dd39dc324e967f2a3459a78281d1f4b2ba962a6",
+        "0xcf90776785c210b803c5899a936666a2b0c9e030f9240146d3c54c8420973a91",
         {
           "node": "Empty",
           "hash": null
         }
       ],
       [
-        "0xcf90776785c210b803c5899a936666a2b0c9e030f9240146d3c54c8420973a91",
+        "0x0fbc62ba90dec43ec1d6016f9dd39dc324e967f2a3459a78281d1f4b2ba962a6",
         {
           "node": "Empty",
           "hash": null
@@ -770,28 +770,8 @@
     "transactions_root": "0x5a45da76a0ce649e52a25434635e686cbbd55ed77aa31ecf4484fa1ef9c432d9",
     "receipts_root": "0xd829d4c292516c5b1b1be184f96dbd709011d9d24d50b2edb1f9d3b9e1f00d46"
   },
-  "genesis_state_trie_root": "0x1c5281460f9dc41a4a9e9300a854a0c182ac6f0be13e5e4e96f276748712bbfe",
+  "checkpoint_state_trie_root": "0x1c5281460f9dc41a4a9e9300a854a0c182ac6f0be13e5e4e96f276748712bbfe",
   "contract_code": {
-    "0xdb94dc4aab9b6a1a11956906ea34f3252f394576aece12199b23b269bb2738ab": [
-      96,
-      0,
-      53,
-      84,
-      21,
-      96,
-      9,
-      87,
-      0,
-      91,
-      96,
-      32,
-      53,
-      96,
-      0,
-      53,
-      85
-    ],
-    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
     "0xbea4a7cc7c31be7c7de2e29ab86c9d6d899b518d29333729fa38d43722bc90ca": [
       127,
       255,
@@ -1030,6 +1010,26 @@
       96,
       0,
       81,
+      85
+    ],
+    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
+    "0xdb94dc4aab9b6a1a11956906ea34f3252f394576aece12199b23b269bb2738ab": [
+      96,
+      0,
+      53,
+      84,
+      21,
+      96,
+      9,
+      87,
+      0,
+      91,
+      96,
+      32,
+      53,
+      96,
+      0,
+      53,
       85
     ]
   },
@@ -1314,10 +1314,5 @@
       "0x0000000000000000000000000000000000000000000000000000000000000000"
     ],
     "cur_hash": "0x0000000000000000000000000000000000000000000000000000000000000000"
-  },
-  "addresses": [
-    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
-    "0x095e7baea6a6c7c4c2dfeb977efac326af552d87",
-    "0x945304eb96065b2a98b57a48a06ae28d285a71b5"
-  ]
+  }
 }

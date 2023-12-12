@@ -572,14 +572,14 @@
         }
       ],
       [
-        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
+        "0xf057b39b049c7df5dfa86c4b0869abe798cef059571a5a1e5bbf5168cf6c097b",
         {
           "node": "Empty",
           "hash": null
         }
       ],
       [
-        "0xf057b39b049c7df5dfa86c4b0869abe798cef059571a5a1e5bbf5168cf6c097b",
+        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
         {
           "node": "Empty",
           "hash": null
@@ -599,7 +599,7 @@
     "transactions_root": "0x24e02aff2bd49e69eaf1fdbe43897cdc541e5d6e2898dc4800062a9eec4ef4b7",
     "receipts_root": "0x0b28f8dbbbcd128942f5071c7a0ec6c35315c7c6278340b18103ffa7f7b8e8f6"
   },
-  "genesis_state_trie_root": "0xc4dbbffbc81c46081cb864dce4593053776e5fef4358c6f22dac0852789f2bd2",
+  "checkpoint_state_trie_root": "0xc4dbbffbc81c46081cb864dce4593053776e5fef4358c6f22dac0852789f2bd2",
   "contract_code": {
     "0x01d93eba1e609be539bf418c54c04095225d8df0dc8d82ee0e74dd01e003afbe": [
       96,
@@ -938,7 +938,9 @@
       85,
       0
     ],
-    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
+    "0xbc36789e7a1e281436464229828f817d6612f7b477d66591ff96a9e064bcc98a": [
+      0
+    ],
     "0xf6db30caba2e68fad0b8d43d5c002ad2937f7a94867e5b95ed9c11cbad991d69": [
       97,
       222,
@@ -946,9 +948,7 @@
       255,
       0
     ],
-    "0xbc36789e7a1e281436464229828f817d6612f7b477d66591ff96a9e064bcc98a": [
-      0
-    ]
+    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": []
   },
   "block_metadata": {
     "block_beneficiary": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
@@ -1231,11 +1231,5 @@
       "0x0000000000000000000000000000000000000000000000000000000000000000"
     ],
     "cur_hash": "0x0000000000000000000000000000000000000000000000000000000000000000"
-  },
-  "addresses": [
-    "0x000000000000000000000000000000000000ca11",
-    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
-    "0xcccccccccccccccccccccccccccccccccccccccc",
-    "0x000000000000000000000000000000000000de57"
-  ]
+  }
 }

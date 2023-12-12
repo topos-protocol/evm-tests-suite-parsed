@@ -902,20 +902,6 @@
     },
     "storage_tries": [
       [
-        "0x0797a8ae1be85d5cb9bf7eabf07bf2b5aefb0b4e89cb4e138147f6a841ad22c0",
-        {
-          "node": "Empty",
-          "hash": null
-        }
-      ],
-      [
-        "0xee51ea7e15b3ec83d9e87eac953fcb2444be7f09e9b1e6e02a47fe32c5a9163a",
-        {
-          "node": "Empty",
-          "hash": null
-        }
-      ],
-      [
         "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
         {
           "node": "Empty",
@@ -924,13 +910,6 @@
       ],
       [
         "0x0fbc62ba90dec43ec1d6016f9dd39dc324e967f2a3459a78281d1f4b2ba962a6",
-        {
-          "node": "Empty",
-          "hash": null
-        }
-      ],
-      [
-        "0x0575f0b26f88f770e01663ec33a25e55811909f7bd5dab82adfd887cbc08f20a",
         {
           "node": "Empty",
           "hash": null
@@ -949,6 +928,27 @@
           "node": "Empty",
           "hash": null
         }
+      ],
+      [
+        "0xee51ea7e15b3ec83d9e87eac953fcb2444be7f09e9b1e6e02a47fe32c5a9163a",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
+        "0x0575f0b26f88f770e01663ec33a25e55811909f7bd5dab82adfd887cbc08f20a",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
+        "0x0797a8ae1be85d5cb9bf7eabf07bf2b5aefb0b4e89cb4e138147f6a841ad22c0",
+        {
+          "node": "Empty",
+          "hash": null
+        }
       ]
     ]
   },
@@ -957,7 +957,7 @@
     "transactions_root": "0x74527ae4eb9f1a6a9ca02a8287fd936ba75488884e9f6f5dc8d4ff1d13427348",
     "receipts_root": "0xaf88629d8b116865bcd7be087fb4cacab06392c52f7faa0473db5c214bb98952"
   },
-  "genesis_state_trie_root": "0x41a7eb279b4025f3aba807c6c1779f14131971cadaf07be2c8714abf7593cf4d",
+  "checkpoint_state_trie_root": "0x41a7eb279b4025f3aba807c6c1779f14131971cadaf07be2c8714abf7593cf4d",
   "contract_code": {
     "0xd3992b3d4003e1c9d36120b3fb2e7222071932beddfdedb85380fdd8675d27f4": [
       96,
@@ -970,6 +970,20 @@
       96,
       0,
       160,
+      0
+    ],
+    "0xc325b82303278585ee705b5f785ffb133f0d7427f2c4341ef695e0d2aff24341": [
+      96,
+      255,
+      96,
+      0,
+      83,
+      51,
+      96,
+      32,
+      96,
+      0,
+      161,
       0
     ],
     "0x1e3953f02fb23787ecf92a9920557ac98af001dddf97a3868b002ddcb10a8ef9": [
@@ -992,6 +1006,22 @@
       164,
       0
     ],
+    "0x953b67cd4fa373f5b34a4f6dcbc2d97087f1849e6480f81407f55a4faa9ac01b": [
+      96,
+      255,
+      96,
+      0,
+      83,
+      51,
+      96,
+      0,
+      96,
+      32,
+      96,
+      0,
+      162,
+      0
+    ],
     "0xfde370b541360fec6f76a99500eb1346b1fa2c153564ebebd4066d0ddb4bc3c7": [
       96,
       255,
@@ -1010,37 +1040,6 @@
       163,
       0
     ],
-    "0xc325b82303278585ee705b5f785ffb133f0d7427f2c4341ef695e0d2aff24341": [
-      96,
-      255,
-      96,
-      0,
-      83,
-      51,
-      96,
-      32,
-      96,
-      0,
-      161,
-      0
-    ],
-    "0x953b67cd4fa373f5b34a4f6dcbc2d97087f1849e6480f81407f55a4faa9ac01b": [
-      96,
-      255,
-      96,
-      0,
-      83,
-      51,
-      96,
-      0,
-      96,
-      32,
-      96,
-      0,
-      162,
-      0
-    ],
-    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
     "0x794a67e1b8c50e180ab833b86503a8047d5ff74dca8daf946dae3d3a8e7e132a": [
       96,
       0,
@@ -1061,7 +1060,8 @@
       0,
       85,
       0
-    ]
+    ],
+    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": []
   },
   "block_metadata": {
     "block_beneficiary": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
@@ -1344,14 +1344,5 @@
       "0x0000000000000000000000000000000000000000000000000000000000000000"
     ],
     "cur_hash": "0x0000000000000000000000000000000000000000000000000000000000000000"
-  },
-  "addresses": [
-    "0x4000000000000000000000000000000000000000",
-    "0x1000000000000000000000000000000000000000",
-    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
-    "0x095e7baea6a6c7c4c2dfeb977efac326af552d87",
-    "0xa000000000000000000000000000000000000000",
-    "0x2000000000000000000000000000000000000000",
-    "0x3000000000000000000000000000000000000000"
-  ]
+  }
 }

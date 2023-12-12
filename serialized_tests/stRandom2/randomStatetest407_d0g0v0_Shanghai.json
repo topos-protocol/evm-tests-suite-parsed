@@ -753,28 +753,8 @@
     "transactions_root": "0xb2a78c6aa1a3157f21b4ad5cdfcd46c3d8aa9da3f942a806a15e31b666cf3c85",
     "receipts_root": "0xca38c4d38cd37ee4d96c8e05bda246391cff17f0ad26506ee46c6ca24de5f456"
   },
-  "genesis_state_trie_root": "0x7a1d7b03870eec8b753793c501a1ce65aa6caa72b5ad3be95c1557df7e5d7e37",
+  "checkpoint_state_trie_root": "0x7a1d7b03870eec8b753793c501a1ce65aa6caa72b5ad3be95c1557df7e5d7e37",
   "contract_code": {
-    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
-    "0xdb94dc4aab9b6a1a11956906ea34f3252f394576aece12199b23b269bb2738ab": [
-      96,
-      0,
-      53,
-      84,
-      21,
-      96,
-      9,
-      87,
-      0,
-      91,
-      96,
-      32,
-      53,
-      96,
-      0,
-      53,
-      85
-    ],
     "0x5dfdf6cceb1d53393130c2ea10ec646aa1721db32215b0c50665c9a16deecc62": [
       127,
       0,
@@ -997,7 +977,27 @@
       0,
       81,
       85
-    ]
+    ],
+    "0xdb94dc4aab9b6a1a11956906ea34f3252f394576aece12199b23b269bb2738ab": [
+      96,
+      0,
+      53,
+      84,
+      21,
+      96,
+      9,
+      87,
+      0,
+      91,
+      96,
+      32,
+      53,
+      96,
+      0,
+      53,
+      85
+    ],
+    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": []
   },
   "block_metadata": {
     "block_beneficiary": "0x945304eb96065b2a98b57a48a06ae28d285a71b5",
@@ -1280,10 +1280,5 @@
       "0x0000000000000000000000000000000000000000000000000000000000000000"
     ],
     "cur_hash": "0x0000000000000000000000000000000000000000000000000000000000000000"
-  },
-  "addresses": [
-    "0x945304eb96065b2a98b57a48a06ae28d285a71b5",
-    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
-    "0x095e7baea6a6c7c4c2dfeb977efac326af552d87"
-  ]
+  }
 }

@@ -528,13 +528,6 @@
     },
     "storage_tries": [
       [
-        "0xc5b6e52f52fba98eb72592089d858d06f258aba915c994662489a03e35e97cc8",
-        {
-          "node": "Empty",
-          "hash": null
-        }
-      ],
-      [
         "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
         {
           "node": "Empty",
@@ -554,6 +547,13 @@
           "node": "Empty",
           "hash": null
         }
+      ],
+      [
+        "0xc5b6e52f52fba98eb72592089d858d06f258aba915c994662489a03e35e97cc8",
+        {
+          "node": "Empty",
+          "hash": null
+        }
       ]
     ]
   },
@@ -562,7 +562,7 @@
     "transactions_root": "0xa02cfaaef253dee0e8c7e6cfcc1960f4566d266cf1081772f1446d2109838efb",
     "receipts_root": "0x05d24b93dd36c9e8e79c2e2c7945a7aa68b1a293b2aeb4eb4b937f55fcb3fc81"
   },
-  "genesis_state_trie_root": "0x33aef22b39106e11f4b7ed7dbc197dddccaccc15a13e0fa307ff104bb65b7cca",
+  "checkpoint_state_trie_root": "0x33aef22b39106e11f4b7ed7dbc197dddccaccc15a13e0fa307ff104bb65b7cca",
   "contract_code": {
     "0x6818baf7a5ab49c9a510d2e98bc98f2fc63c53b44bd6dbcbd6a83d8e855c4f42": [
       96,
@@ -600,6 +600,7 @@
       85,
       0
     ],
+    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
     "0x67661b4986886732b5c533276ede50ba927bd6e63a5f98b3e8e7fb85afee7d0d": [
       96,
       64,
@@ -681,8 +682,7 @@
       1,
       85,
       0
-    ],
-    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": []
+    ]
   },
   "block_metadata": {
     "block_beneficiary": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
@@ -965,11 +965,5 @@
       "0x0000000000000000000000000000000000000000000000000000000000000000"
     ],
     "cur_hash": "0x0000000000000000000000000000000000000000000000000000000000000000"
-  },
-  "addresses": [
-    "0x1000000000000000000000000000000000000002",
-    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
-    "0x1000000000000000000000000000000000000000",
-    "0x1000000000000000000000000000000000000001"
-  ]
+  }
 }

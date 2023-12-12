@@ -396,9 +396,8 @@
     "transactions_root": "0x190f63c95e3461d428b7fabffe61d91ebabda17e655868b1aa97c484d794b258",
     "receipts_root": "0xfe986d9893804e29a07ea9f504d4cdda0b641a274b6329452ab58fb62f10944e"
   },
-  "genesis_state_trie_root": "0x0932f3fb5cf0b6ff18ecd0de313d5ac52c16386cd944d533a7ec7c1ddee0aad5",
+  "checkpoint_state_trie_root": "0x0932f3fb5cf0b6ff18ecd0de313d5ac52c16386cd944d533a7ec7c1ddee0aad5",
   "contract_code": {
-    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
     "0x943a37a52f8ba141b7b32f8a0013a9f3a3e51570db869bb0c12ffbeac4620267": [
       96,
       16,
@@ -435,7 +434,8 @@
       0,
       243,
       0
-    ]
+    ],
+    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": []
   },
   "block_metadata": {
     "block_beneficiary": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
@@ -718,9 +718,5 @@
       "0x0000000000000000000000000000000000000000000000000000000000000000"
     ],
     "cur_hash": "0x0000000000000000000000000000000000000000000000000000000000000000"
-  },
-  "addresses": [
-    "0xdeadbeef00000000000000000000000000000000",
-    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
-  ]
+  }
 }

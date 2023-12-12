@@ -789,6 +789,13 @@
     },
     "storage_tries": [
       [
+        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
         "0xcf90776785c210b803c5899a936666a2b0c9e030f9240146d3c54c8420973a91",
         {
           "node": "Empty",
@@ -801,13 +808,6 @@
           "node": "Empty",
           "hash": null
         }
-      ],
-      [
-        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
-        {
-          "node": "Empty",
-          "hash": null
-        }
       ]
     ]
   },
@@ -816,28 +816,8 @@
     "transactions_root": "0x20398ca82d2f35bf1abf4f56fdb5a1d380e3c791cfe3a1db1fed16eac1c2c57e",
     "receipts_root": "0x8206b7cc5850252ab52cc9249950028e5d107922a4c603f38af04cafe1cde712"
   },
-  "genesis_state_trie_root": "0xf56c0fb5cf0ea86b8b440ec8f89cb8ba35444892c7530bd122a8e8a02a6d0b29",
+  "checkpoint_state_trie_root": "0xf56c0fb5cf0ea86b8b440ec8f89cb8ba35444892c7530bd122a8e8a02a6d0b29",
   "contract_code": {
-    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
-    "0xdb94dc4aab9b6a1a11956906ea34f3252f394576aece12199b23b269bb2738ab": [
-      96,
-      0,
-      53,
-      84,
-      21,
-      96,
-      9,
-      87,
-      0,
-      91,
-      96,
-      32,
-      53,
-      96,
-      0,
-      53,
-      85
-    ],
     "0xc26ea4395b056ed87d517c73f4d747ae60d8974a98f50bcc2a48afca58c0086c": [
       127,
       255,
@@ -1122,6 +1102,26 @@
       0,
       81,
       85
+    ],
+    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
+    "0xdb94dc4aab9b6a1a11956906ea34f3252f394576aece12199b23b269bb2738ab": [
+      96,
+      0,
+      53,
+      84,
+      21,
+      96,
+      9,
+      87,
+      0,
+      91,
+      96,
+      32,
+      53,
+      96,
+      0,
+      53,
+      85
     ]
   },
   "block_metadata": {
@@ -1405,10 +1405,5 @@
       "0x0000000000000000000000000000000000000000000000000000000000000000"
     ],
     "cur_hash": "0x0000000000000000000000000000000000000000000000000000000000000000"
-  },
-  "addresses": [
-    "0x945304eb96065b2a98b57a48a06ae28d285a71b5",
-    "0x095e7baea6a6c7c4c2dfeb977efac326af552d87",
-    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
-  ]
+  }
 }

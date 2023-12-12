@@ -564,14 +564,7 @@
     },
     "storage_tries": [
       [
-        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
-        {
-          "node": "Empty",
-          "hash": null
-        }
-      ],
-      [
-        "0x479e90c549bf6f72d0c2bb629efaa82a9a833d12f842efe6f2c7628e64ada257",
+        "0x35f2ace24bb0b352ff737e6d79691d76500b98613f3507e9d83237c064161b3a",
         {
           "node": {
             "Leaf": {
@@ -588,7 +581,14 @@
         }
       ],
       [
-        "0x35f2ace24bb0b352ff737e6d79691d76500b98613f3507e9d83237c064161b3a",
+        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
+        "0x479e90c549bf6f72d0c2bb629efaa82a9a833d12f842efe6f2c7628e64ada257",
         {
           "node": {
             "Leaf": {
@@ -618,8 +618,9 @@
     "transactions_root": "0x41ee66b03ded49fa4486c7a8ed314b29418ee99dcdcfa64f86a89888cd5992fa",
     "receipts_root": "0x696f180d4952a9f377376ebb59a233cfb21ec63499c2042970fbb4bbf9173d51"
   },
-  "genesis_state_trie_root": "0x05b1b9d71e4b60d21d5efc002162334c5cc9835d9041539b52bc9246ae28b127",
+  "checkpoint_state_trie_root": "0x05b1b9d71e4b60d21d5efc002162334c5cc9835d9041539b52bc9246ae28b127",
   "contract_code": {
+    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
     "0xa66f89b0fd055b56dec343abffd76724652beea2201b7ba20b35c43d98330878": [
       96,
       2,
@@ -795,8 +796,7 @@
       1,
       85,
       0
-    ],
-    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": []
+    ]
   },
   "block_metadata": {
     "block_beneficiary": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
@@ -1079,11 +1079,5 @@
       "0x0000000000000000000000000000000000000000000000000000000000000000"
     ],
     "cur_hash": "0x0000000000000000000000000000000000000000000000000000000000000000"
-  },
-  "addresses": [
-    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
-    "0xc000000000000000000000000000000000000000",
-    "0xb000000000000000000000000000000000000000",
-    "0xdea0000000000000000000000000000000000000"
-  ]
+  }
 }

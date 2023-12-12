@@ -607,7 +607,7 @@
     },
     "storage_tries": [
       [
-        "0x227a737497210f7cc2f464e3bfffadefa9806193ccdf873203cd91c8d3eab518",
+        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
         {
           "node": "Empty",
           "hash": null
@@ -633,14 +633,14 @@
         }
       ],
       [
-        "0xd56ba3ffbc6339cd58b0e02997b95916bc7870d5964479b646008a95174a3daa",
+        "0x227a737497210f7cc2f464e3bfffadefa9806193ccdf873203cd91c8d3eab518",
         {
           "node": "Empty",
           "hash": null
         }
       ],
       [
-        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
+        "0xd56ba3ffbc6339cd58b0e02997b95916bc7870d5964479b646008a95174a3daa",
         {
           "node": "Empty",
           "hash": null
@@ -653,15 +653,8 @@
     "transactions_root": "0xa6e89aa12fed15f1881309c4234264705a2b6a0bd112837bc1f45f430e734a0c",
     "receipts_root": "0xbeb9bb12c67f295f3d47c8ac4f2f04418a3a0a62d8c3551ba5f1dbb3d5b512f9"
   },
-  "genesis_state_trie_root": "0x670fd0117c4a8ec6472b21f8a234d2910468430117d54486658b50b597b4d381",
+  "checkpoint_state_trie_root": "0x670fd0117c4a8ec6472b21f8a234d2910468430117d54486658b50b597b4d381",
   "contract_code": {
-    "0xe3c4aac6d16a5e5320666fdc271ce5df9b6a0b11bd8e563e0d858edd7e150793": [
-      96,
-      0,
-      96,
-      255,
-      0
-    ],
     "0xbf8368c98a15b85d403a3fa68b2f7fa5362e32ebe4d804862e8ca4a6d32b1f43": [
       97,
       96,
@@ -753,6 +746,13 @@
       96,
       0,
       85,
+      0
+    ],
+    "0xe3c4aac6d16a5e5320666fdc271ce5df9b6a0b11bd8e563e0d858edd7e150793": [
+      96,
+      0,
+      96,
+      255,
       0
     ],
     "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
@@ -1045,11 +1045,5 @@
       "0x0000000000000000000000000000000000000000000000000000000000000000"
     ],
     "cur_hash": "0x0000000000000000000000000000000000000000000000000000000000000000"
-  },
-  "addresses": [
-    "0x0000000000000000000000000000000000000100",
-    "0x095e7baea6a6c7c4c2dfeb977efac326af552d87",
-    "0x0000000000000000000000000000000000000200",
-    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
-  ]
+  }
 }

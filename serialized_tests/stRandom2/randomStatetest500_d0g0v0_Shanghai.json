@@ -732,14 +732,14 @@
         }
       ],
       [
-        "0x0fbc62ba90dec43ec1d6016f9dd39dc324e967f2a3459a78281d1f4b2ba962a6",
+        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
         {
           "node": "Empty",
           "hash": null
         }
       ],
       [
-        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
+        "0x0fbc62ba90dec43ec1d6016f9dd39dc324e967f2a3459a78281d1f4b2ba962a6",
         {
           "node": "Empty",
           "hash": null
@@ -752,27 +752,8 @@
     "transactions_root": "0x8924877040d004f7dc8c077f83a54ff4a3c376c2637dd42cf051d97af025057f",
     "receipts_root": "0xa843ac5b61671ea51bb8bb6c9d931e77f147a8df37f9e73587256eb25760437d"
   },
-  "genesis_state_trie_root": "0x9c39803ef9d0e7c4a5d14d159694603305d11fcecb931fd0465a2ec9a1816b4c",
+  "checkpoint_state_trie_root": "0x9c39803ef9d0e7c4a5d14d159694603305d11fcecb931fd0465a2ec9a1816b4c",
   "contract_code": {
-    "0xdb94dc4aab9b6a1a11956906ea34f3252f394576aece12199b23b269bb2738ab": [
-      96,
-      0,
-      53,
-      84,
-      21,
-      96,
-      9,
-      87,
-      0,
-      91,
-      96,
-      32,
-      53,
-      96,
-      0,
-      53,
-      85
-    ],
     "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
     "0x825be5f97982d37ede74fa6bc8bf8a726f874d3fbdbaa10cbf8ba9769040dd5d": [
       127,
@@ -994,6 +975,25 @@
       96,
       0,
       81,
+      85
+    ],
+    "0xdb94dc4aab9b6a1a11956906ea34f3252f394576aece12199b23b269bb2738ab": [
+      96,
+      0,
+      53,
+      84,
+      21,
+      96,
+      9,
+      87,
+      0,
+      91,
+      96,
+      32,
+      53,
+      96,
+      0,
+      53,
       85
     ]
   },
@@ -1278,10 +1278,5 @@
       "0x0000000000000000000000000000000000000000000000000000000000000000"
     ],
     "cur_hash": "0x0000000000000000000000000000000000000000000000000000000000000000"
-  },
-  "addresses": [
-    "0x945304eb96065b2a98b57a48a06ae28d285a71b5",
-    "0x095e7baea6a6c7c4c2dfeb977efac326af552d87",
-    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
-  ]
+  }
 }

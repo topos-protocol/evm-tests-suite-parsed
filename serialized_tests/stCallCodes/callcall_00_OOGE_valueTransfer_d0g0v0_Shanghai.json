@@ -520,6 +520,13 @@
     },
     "storage_tries": [
       [
+        "0xc5b6e52f52fba98eb72592089d858d06f258aba915c994662489a03e35e97cc8",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
         "0x3ed02be1e351ddbcc2bf3ffafc25fb42a533df024b33c85f9805e17b60f7230c",
         {
           "node": "Empty",
@@ -528,13 +535,6 @@
       ],
       [
         "0xee51ea7e15b3ec83d9e87eac953fcb2444be7f09e9b1e6e02a47fe32c5a9163a",
-        {
-          "node": "Empty",
-          "hash": null
-        }
-      ],
-      [
-        "0xc5b6e52f52fba98eb72592089d858d06f258aba915c994662489a03e35e97cc8",
         {
           "node": "Empty",
           "hash": null
@@ -554,23 +554,8 @@
     "transactions_root": "0xc8dd60985c2897fe775f0c88b53a0cef6fafa1e2295cee6e65cd8df4b9df6930",
     "receipts_root": "0xfc19a8826cbe223183e039b5c967b998ff19a7ec8cfe8626e02af18aea275d73"
   },
-  "genesis_state_trie_root": "0x79ee67fe6b9a4feecef7e1bc0fbafba0ee90aad6a0baae0d2358f626dcd41a4d",
+  "checkpoint_state_trie_root": "0x79ee67fe6b9a4feecef7e1bc0fbafba0ee90aad6a0baae0d2358f626dcd41a4d",
   "contract_code": {
-    "0x9d007a6ad2f1233efb7665d57cae794b9dc3abeb9203881ee5c06c9a1cf20eef": [
-      96,
-      1,
-      96,
-      2,
-      85,
-      98,
-      47,
-      255,
-      255,
-      96,
-      0,
-      32,
-      0
-    ],
     "0xcc1e6c246e3b518d76c270326dcd96bf83fd5d98fb0302a706215a462db576d3": [
       96,
       64,
@@ -611,6 +596,21 @@
       96,
       0,
       85,
+      0
+    ],
+    "0x9d007a6ad2f1233efb7665d57cae794b9dc3abeb9203881ee5c06c9a1cf20eef": [
+      96,
+      1,
+      96,
+      2,
+      85,
+      98,
+      47,
+      255,
+      255,
+      96,
+      0,
+      32,
       0
     ],
     "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
@@ -943,11 +943,5 @@
       "0x0000000000000000000000000000000000000000000000000000000000000000"
     ],
     "cur_hash": "0x0000000000000000000000000000000000000000000000000000000000000000"
-  },
-  "addresses": [
-    "0x1000000000000000000000000000000000000001",
-    "0x1000000000000000000000000000000000000000",
-    "0x1000000000000000000000000000000000000002",
-    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b"
-  ]
+  }
 }

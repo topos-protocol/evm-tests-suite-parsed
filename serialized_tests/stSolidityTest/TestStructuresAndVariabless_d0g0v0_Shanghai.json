@@ -389,7 +389,7 @@
     "transactions_root": "0xbdea0699ac253c4bf32fec9131a166fe23433fa5e49cf47a48f9afb4c78a3321",
     "receipts_root": "0xf130268c0b6524fc8f0faecee6dd22b4fa45c55bffb9ebb6b76892a1b4a4cebb"
   },
-  "genesis_state_trie_root": "0xb5b7f77116e8c502694ea1a8a8666d4731fdb7af6c09ef47f30e1f601d2d82c4",
+  "checkpoint_state_trie_root": "0xb5b7f77116e8c502694ea1a8a8666d4731fdb7af6c09ef47f30e1f601d2d82c4",
   "contract_code": {
     "0xaf2c2aafb9c72febd83a2e788dd8f383caf822e62e313e9d31084ee6533b8e8d": [
       124,
@@ -1272,9 +1272,5 @@
       "0x0000000000000000000000000000000000000000000000000000000000000000"
     ],
     "cur_hash": "0x0000000000000000000000000000000000000000000000000000000000000000"
-  },
-  "addresses": [
-    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
-    "0x095e7baea6a6c7c4c2dfeb977efac326af552d87"
-  ]
+  }
 }

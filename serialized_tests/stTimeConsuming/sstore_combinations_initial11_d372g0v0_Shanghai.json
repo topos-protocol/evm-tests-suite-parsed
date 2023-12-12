@@ -1055,120 +1055,6 @@
     },
     "storage_tries": [
       [
-        "0x0c10aeaf9f594df41a97a87fb42cc39c50dd91c0f8895b87c7b2ae6af22cf05b",
-        {
-          "node": {
-            "Branch": {
-              "children": [
-                {
-                  "node": "Empty",
-                  "hash": null
-                },
-                {
-                  "node": "Empty",
-                  "hash": null
-                },
-                {
-                  "node": {
-                    "Leaf": {
-                      "nibbles": {
-                        "count": 63,
-                        "packed": "0x90decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
-                      },
-                      "value": [
-                        2
-                      ]
-                    }
-                  },
-                  "hash": "0x4e918b76be51be2f02df0ac6191ec2765d401d2229e47291806815da755f5b5e"
-                },
-                {
-                  "node": "Empty",
-                  "hash": null
-                },
-                {
-                  "node": {
-                    "Leaf": {
-                      "nibbles": {
-                        "count": 63,
-                        "packed": "0x5787fa12a823e0f2b7631cc41b3ba8828b3321ca811111fa75cd3aa3bb5ace"
-                      },
-                      "value": [
-                        2
-                      ]
-                    }
-                  },
-                  "hash": "0x9ddd70915eb71e1c868c88a5e19e1b60b8f7c12727c5db3829b5e38d770661ab"
-                },
-                {
-                  "node": "Empty",
-                  "hash": null
-                },
-                {
-                  "node": "Empty",
-                  "hash": null
-                },
-                {
-                  "node": "Empty",
-                  "hash": null
-                },
-                {
-                  "node": "Empty",
-                  "hash": null
-                },
-                {
-                  "node": "Empty",
-                  "hash": null
-                },
-                {
-                  "node": "Empty",
-                  "hash": null
-                },
-                {
-                  "node": {
-                    "Leaf": {
-                      "nibbles": {
-                        "count": 63,
-                        "packed": "0x10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cf6"
-                      },
-                      "value": [
-                        2
-                      ]
-                    }
-                  },
-                  "hash": "0x236e8f61ecde6abfebc6c529441f782f62469d8a2cc47b7aace2c136bd3b1ff0"
-                },
-                {
-                  "node": "Empty",
-                  "hash": null
-                },
-                {
-                  "node": "Empty",
-                  "hash": null
-                },
-                {
-                  "node": "Empty",
-                  "hash": null
-                },
-                {
-                  "node": "Empty",
-                  "hash": null
-                }
-              ],
-              "value": []
-            }
-          },
-          "hash": null
-        }
-      ],
-      [
-        "0x8dfad888a2f79bcfe6633c369a5652e94379f63f5849d8e8fe519c586bb49633",
-        {
-          "node": "Empty",
-          "hash": null
-        }
-      ],
-      [
         "0x4b38f86bb73787385f15c8c5e9b870cb8011b5bfb4ffce95207317bce6193fcb",
         {
           "node": {
@@ -1276,7 +1162,7 @@
         }
       ],
       [
-        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
+        "0x35f2ace24bb0b352ff737e6d79691d76500b98613f3507e9d83237c064161b3a",
         {
           "node": "Empty",
           "hash": null
@@ -1390,9 +1276,109 @@
         }
       ],
       [
-        "0x35f2ace24bb0b352ff737e6d79691d76500b98613f3507e9d83237c064161b3a",
+        "0x0c10aeaf9f594df41a97a87fb42cc39c50dd91c0f8895b87c7b2ae6af22cf05b",
         {
-          "node": "Empty",
+          "node": {
+            "Branch": {
+              "children": [
+                {
+                  "node": "Empty",
+                  "hash": null
+                },
+                {
+                  "node": "Empty",
+                  "hash": null
+                },
+                {
+                  "node": {
+                    "Leaf": {
+                      "nibbles": {
+                        "count": 63,
+                        "packed": "0x90decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+                      },
+                      "value": [
+                        2
+                      ]
+                    }
+                  },
+                  "hash": "0x4e918b76be51be2f02df0ac6191ec2765d401d2229e47291806815da755f5b5e"
+                },
+                {
+                  "node": "Empty",
+                  "hash": null
+                },
+                {
+                  "node": {
+                    "Leaf": {
+                      "nibbles": {
+                        "count": 63,
+                        "packed": "0x5787fa12a823e0f2b7631cc41b3ba8828b3321ca811111fa75cd3aa3bb5ace"
+                      },
+                      "value": [
+                        2
+                      ]
+                    }
+                  },
+                  "hash": "0x9ddd70915eb71e1c868c88a5e19e1b60b8f7c12727c5db3829b5e38d770661ab"
+                },
+                {
+                  "node": "Empty",
+                  "hash": null
+                },
+                {
+                  "node": "Empty",
+                  "hash": null
+                },
+                {
+                  "node": "Empty",
+                  "hash": null
+                },
+                {
+                  "node": "Empty",
+                  "hash": null
+                },
+                {
+                  "node": "Empty",
+                  "hash": null
+                },
+                {
+                  "node": "Empty",
+                  "hash": null
+                },
+                {
+                  "node": {
+                    "Leaf": {
+                      "nibbles": {
+                        "count": 63,
+                        "packed": "0x10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cf6"
+                      },
+                      "value": [
+                        2
+                      ]
+                    }
+                  },
+                  "hash": "0x236e8f61ecde6abfebc6c529441f782f62469d8a2cc47b7aace2c136bd3b1ff0"
+                },
+                {
+                  "node": "Empty",
+                  "hash": null
+                },
+                {
+                  "node": "Empty",
+                  "hash": null
+                },
+                {
+                  "node": "Empty",
+                  "hash": null
+                },
+                {
+                  "node": "Empty",
+                  "hash": null
+                }
+              ],
+              "value": []
+            }
+          },
           "hash": null
         }
       ],
@@ -1502,6 +1488,20 @@
           },
           "hash": null
         }
+      ],
+      [
+        "0x8dfad888a2f79bcfe6633c369a5652e94379f63f5849d8e8fe519c586bb49633",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
+        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
+        {
+          "node": "Empty",
+          "hash": null
+        }
       ]
     ]
   },
@@ -1510,16 +1510,9 @@
     "transactions_root": "0x65fbf67f4aa8ef091dd17a2fa3c96065e171113572ad6a7719b5e56cb184d596",
     "receipts_root": "0xfda1fcfa05ea6ff6aa00d4ded9bc07344950b0535a3c3d53c1cd6f0ec17946dc"
   },
-  "genesis_state_trie_root": "0x37987ef569a9c6dd19073e0ddc59fb7762962f458d9b525b78e537605b353c1c",
+  "checkpoint_state_trie_root": "0x37987ef569a9c6dd19073e0ddc59fb7762962f458d9b525b78e537605b353c1c",
   "contract_code": {
-    "0xd2088a7cd4e8a1255755c5f3ad53ef7f12073ca5e9dec274aaf196c399cd068f": [
-      96,
-      32,
-      96,
-      0,
-      253,
-      0
-    ],
+    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
     "0x4033e3f83ce139ccffeb3173926437470bfe089cff4f7a75e666add00fd1caa9": [
       96,
       0,
@@ -1706,7 +1699,14 @@
       85,
       0
     ],
-    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": []
+    "0xd2088a7cd4e8a1255755c5f3ad53ef7f12073ca5e9dec274aaf196c399cd068f": [
+      96,
+      32,
+      96,
+      0,
+      253,
+      0
+    ]
   },
   "block_metadata": {
     "block_beneficiary": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
@@ -1989,14 +1989,5 @@
       "0x0000000000000000000000000000000000000000000000000000000000000000"
     ],
     "cur_hash": "0x0000000000000000000000000000000000000000000000000000000000000000"
-  },
-  "addresses": [
-    "0xb200000000000000000000000000000000000000",
-    "0x2000000000000000000000000000000000000000",
-    "0x3000000000000000000000000000000000000000",
-    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
-    "0xb100000000000000000000000000000000000000",
-    "0xb000000000000000000000000000000000000000",
-    "0x1000000000000000000000000000000000000000"
-  ]
+  }
 }

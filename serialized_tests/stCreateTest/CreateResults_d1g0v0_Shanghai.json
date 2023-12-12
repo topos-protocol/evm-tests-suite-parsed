@@ -557,6 +557,13 @@
         }
       ],
       [
+        "0x4a1421ae251ab695e3b2af483899ba12a8c3bb74711f1c74706df6c0800e6751",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
         "0xf057b39b049c7df5dfa86c4b0869abe798cef059571a5a1e5bbf5168cf6c097b",
         {
           "node": {
@@ -786,13 +793,6 @@
           },
           "hash": null
         }
-      ],
-      [
-        "0x4a1421ae251ab695e3b2af483899ba12a8c3bb74711f1c74706df6c0800e6751",
-        {
-          "node": "Empty",
-          "hash": null
-        }
       ]
     ]
   },
@@ -801,18 +801,8 @@
     "transactions_root": "0x01325ec475a5e685c7b715ef17cafda6e1692cf4326e6555bc07b9cab531e982",
     "receipts_root": "0x5cc6215543c4691df583f9516518e08e430d6b8f00cd981aa0455fb33585f534"
   },
-  "genesis_state_trie_root": "0x7468776180a74186016b1b7a15c328ddb67448142bc8131f93670fa089bd65df",
+  "checkpoint_state_trie_root": "0x7468776180a74186016b1b7a15c328ddb67448142bc8131f93670fa089bd65df",
   "contract_code": {
-    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
-    "0xb88314511ebdfd15e2e7359bca2621bba7bc937268eda1d6776703cf90a5ce43": [
-      97,
-      96,
-      167,
-      96,
-      0,
-      85,
-      0
-    ],
     "0x96c37e9d758cb291e976c18c2a40eae355a1865df4fdc4b7f35ef2def5f5e3b4": [
       96,
       4,
@@ -1662,6 +1652,16 @@
       255,
       241,
       0
+    ],
+    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
+    "0xb88314511ebdfd15e2e7359bca2621bba7bc937268eda1d6776703cf90a5ce43": [
+      97,
+      96,
+      167,
+      96,
+      0,
+      85,
+      0
     ]
   },
   "block_metadata": {
@@ -1945,10 +1945,5 @@
       "0x0000000000000000000000000000000000000000000000000000000000000000"
     ],
     "cur_hash": "0x0000000000000000000000000000000000000000000000000000000000000000"
-  },
-  "addresses": [
-    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
-    "0xcccccccccccccccccccccccccccccccccccccccc",
-    "0x00000000000000000000000000000000000060a7"
-  ]
+  }
 }

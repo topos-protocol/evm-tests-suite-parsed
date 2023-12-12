@@ -452,13 +452,6 @@
     },
     "storage_tries": [
       [
-        "0x3ed02be1e351ddbcc2bf3ffafc25fb42a533df024b33c85f9805e17b60f7230c",
-        {
-          "node": "Empty",
-          "hash": null
-        }
-      ],
-      [
         "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
         {
           "node": "Empty",
@@ -471,6 +464,13 @@
           "node": "Empty",
           "hash": null
         }
+      ],
+      [
+        "0x3ed02be1e351ddbcc2bf3ffafc25fb42a533df024b33c85f9805e17b60f7230c",
+        {
+          "node": "Empty",
+          "hash": null
+        }
       ]
     ]
   },
@@ -479,8 +479,20 @@
     "transactions_root": "0x7e2d13609f335a7caf015192b353ce5abec6d37a00726d862b9d287a98addb51",
     "receipts_root": "0xa0e10907f175886de9bd8cd4ac2c21d1db4109a3a9fecf60f54015ee102803fd"
   },
-  "genesis_state_trie_root": "0xfb20eadeff35c73805073a8843d67d475e0584ad5c423dba46ed0a578b9d48b4",
+  "checkpoint_state_trie_root": "0xfb20eadeff35c73805073a8843d67d475e0584ad5c423dba46ed0a578b9d48b4",
   "contract_code": {
+    "0xe54cd80e4294e728a31b4fc285929ec1bd3534deac9202ea71a2057678faec82": [
+      96,
+      0,
+      84,
+      96,
+      1,
+      1,
+      96,
+      0,
+      82,
+      0
+    ],
     "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
     "0xb47ab90c0060f9ae83f4c9f5e0c24c88553b7d9d171b32d83c9f70d9d4429ee5": [
       96,
@@ -933,18 +945,6 @@
       255,
       250,
       0
-    ],
-    "0xe54cd80e4294e728a31b4fc285929ec1bd3534deac9202ea71a2057678faec82": [
-      96,
-      0,
-      84,
-      96,
-      1,
-      1,
-      96,
-      0,
-      82,
-      0
     ]
   },
   "block_metadata": {
@@ -1228,10 +1228,5 @@
       "0x0000000000000000000000000000000000000000000000000000000000000000"
     ],
     "cur_hash": "0x0000000000000000000000000000000000000000000000000000000000000000"
-  },
-  "addresses": [
-    "0x1000000000000000000000000000000000000001",
-    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
-    "0x1000000000000000000000000000000000000000"
-  ]
+  }
 }

@@ -1053,6 +1053,127 @@
     },
     "storage_tries": [
       [
+        "0x8dfad888a2f79bcfe6633c369a5652e94379f63f5849d8e8fe519c586bb49633",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
+        "0x35f2ace24bb0b352ff737e6d79691d76500b98613f3507e9d83237c064161b3a",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
+        "0xee51ea7e15b3ec83d9e87eac953fcb2444be7f09e9b1e6e02a47fe32c5a9163a",
+        {
+          "node": {
+            "Branch": {
+              "children": [
+                {
+                  "node": "Empty",
+                  "hash": null
+                },
+                {
+                  "node": "Empty",
+                  "hash": null
+                },
+                {
+                  "node": {
+                    "Leaf": {
+                      "nibbles": {
+                        "count": 63,
+                        "packed": "0x90decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+                      },
+                      "value": [
+                        1
+                      ]
+                    }
+                  },
+                  "hash": "0x4fc5f13ab2f9ba0c2da88b0151ab0e7cf4d85d08cca45ccd923c6ab76323eb28"
+                },
+                {
+                  "node": "Empty",
+                  "hash": null
+                },
+                {
+                  "node": {
+                    "Leaf": {
+                      "nibbles": {
+                        "count": 63,
+                        "packed": "0x5787fa12a823e0f2b7631cc41b3ba8828b3321ca811111fa75cd3aa3bb5ace"
+                      },
+                      "value": [
+                        1
+                      ]
+                    }
+                  },
+                  "hash": "0x15503e91f9250654cf72906e38a7cb14c3f1cc06658379d37f0c5b5c32482880"
+                },
+                {
+                  "node": "Empty",
+                  "hash": null
+                },
+                {
+                  "node": "Empty",
+                  "hash": null
+                },
+                {
+                  "node": "Empty",
+                  "hash": null
+                },
+                {
+                  "node": "Empty",
+                  "hash": null
+                },
+                {
+                  "node": "Empty",
+                  "hash": null
+                },
+                {
+                  "node": "Empty",
+                  "hash": null
+                },
+                {
+                  "node": {
+                    "Leaf": {
+                      "nibbles": {
+                        "count": 63,
+                        "packed": "0x10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cf6"
+                      },
+                      "value": [
+                        1
+                      ]
+                    }
+                  },
+                  "hash": "0xf4984a11f61a2921456141df88de6e1a710d28681b91af794c5a721e47839cd7"
+                },
+                {
+                  "node": "Empty",
+                  "hash": null
+                },
+                {
+                  "node": "Empty",
+                  "hash": null
+                },
+                {
+                  "node": "Empty",
+                  "hash": null
+                },
+                {
+                  "node": "Empty",
+                  "hash": null
+                }
+              ],
+              "value": []
+            }
+          },
+          "hash": null
+        }
+      ],
+      [
         "0x4b38f86bb73787385f15c8c5e9b870cb8011b5bfb4ffce95207317bce6193fcb",
         {
           "node": {
@@ -1135,6 +1256,113 @@
                     }
                   },
                   "hash": "0x236e8f61ecde6abfebc6c529441f782f62469d8a2cc47b7aace2c136bd3b1ff0"
+                },
+                {
+                  "node": "Empty",
+                  "hash": null
+                },
+                {
+                  "node": "Empty",
+                  "hash": null
+                },
+                {
+                  "node": "Empty",
+                  "hash": null
+                },
+                {
+                  "node": "Empty",
+                  "hash": null
+                }
+              ],
+              "value": []
+            }
+          },
+          "hash": null
+        }
+      ],
+      [
+        "0x83a8b06f0075cab64ddbf41592136477fbb27d4b81263bf5d4a798bec3ac8a06",
+        {
+          "node": {
+            "Branch": {
+              "children": [
+                {
+                  "node": "Empty",
+                  "hash": null
+                },
+                {
+                  "node": "Empty",
+                  "hash": null
+                },
+                {
+                  "node": {
+                    "Leaf": {
+                      "nibbles": {
+                        "count": 63,
+                        "packed": "0x90decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
+                      },
+                      "value": [
+                        1
+                      ]
+                    }
+                  },
+                  "hash": "0x4fc5f13ab2f9ba0c2da88b0151ab0e7cf4d85d08cca45ccd923c6ab76323eb28"
+                },
+                {
+                  "node": "Empty",
+                  "hash": null
+                },
+                {
+                  "node": {
+                    "Leaf": {
+                      "nibbles": {
+                        "count": 63,
+                        "packed": "0x5787fa12a823e0f2b7631cc41b3ba8828b3321ca811111fa75cd3aa3bb5ace"
+                      },
+                      "value": [
+                        1
+                      ]
+                    }
+                  },
+                  "hash": "0x15503e91f9250654cf72906e38a7cb14c3f1cc06658379d37f0c5b5c32482880"
+                },
+                {
+                  "node": "Empty",
+                  "hash": null
+                },
+                {
+                  "node": "Empty",
+                  "hash": null
+                },
+                {
+                  "node": "Empty",
+                  "hash": null
+                },
+                {
+                  "node": "Empty",
+                  "hash": null
+                },
+                {
+                  "node": "Empty",
+                  "hash": null
+                },
+                {
+                  "node": "Empty",
+                  "hash": null
+                },
+                {
+                  "node": {
+                    "Leaf": {
+                      "nibbles": {
+                        "count": 63,
+                        "packed": "0x10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cf6"
+                      },
+                      "value": [
+                        1
+                      ]
+                    }
+                  },
+                  "hash": "0xf4984a11f61a2921456141df88de6e1a710d28681b91af794c5a721e47839cd7"
                 },
                 {
                   "node": "Empty",
@@ -1272,234 +1500,6 @@
           "node": "Empty",
           "hash": null
         }
-      ],
-      [
-        "0x8dfad888a2f79bcfe6633c369a5652e94379f63f5849d8e8fe519c586bb49633",
-        {
-          "node": "Empty",
-          "hash": null
-        }
-      ],
-      [
-        "0xee51ea7e15b3ec83d9e87eac953fcb2444be7f09e9b1e6e02a47fe32c5a9163a",
-        {
-          "node": {
-            "Branch": {
-              "children": [
-                {
-                  "node": "Empty",
-                  "hash": null
-                },
-                {
-                  "node": "Empty",
-                  "hash": null
-                },
-                {
-                  "node": {
-                    "Leaf": {
-                      "nibbles": {
-                        "count": 63,
-                        "packed": "0x90decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
-                      },
-                      "value": [
-                        1
-                      ]
-                    }
-                  },
-                  "hash": "0x4fc5f13ab2f9ba0c2da88b0151ab0e7cf4d85d08cca45ccd923c6ab76323eb28"
-                },
-                {
-                  "node": "Empty",
-                  "hash": null
-                },
-                {
-                  "node": {
-                    "Leaf": {
-                      "nibbles": {
-                        "count": 63,
-                        "packed": "0x5787fa12a823e0f2b7631cc41b3ba8828b3321ca811111fa75cd3aa3bb5ace"
-                      },
-                      "value": [
-                        1
-                      ]
-                    }
-                  },
-                  "hash": "0x15503e91f9250654cf72906e38a7cb14c3f1cc06658379d37f0c5b5c32482880"
-                },
-                {
-                  "node": "Empty",
-                  "hash": null
-                },
-                {
-                  "node": "Empty",
-                  "hash": null
-                },
-                {
-                  "node": "Empty",
-                  "hash": null
-                },
-                {
-                  "node": "Empty",
-                  "hash": null
-                },
-                {
-                  "node": "Empty",
-                  "hash": null
-                },
-                {
-                  "node": "Empty",
-                  "hash": null
-                },
-                {
-                  "node": {
-                    "Leaf": {
-                      "nibbles": {
-                        "count": 63,
-                        "packed": "0x10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cf6"
-                      },
-                      "value": [
-                        1
-                      ]
-                    }
-                  },
-                  "hash": "0xf4984a11f61a2921456141df88de6e1a710d28681b91af794c5a721e47839cd7"
-                },
-                {
-                  "node": "Empty",
-                  "hash": null
-                },
-                {
-                  "node": "Empty",
-                  "hash": null
-                },
-                {
-                  "node": "Empty",
-                  "hash": null
-                },
-                {
-                  "node": "Empty",
-                  "hash": null
-                }
-              ],
-              "value": []
-            }
-          },
-          "hash": null
-        }
-      ],
-      [
-        "0x35f2ace24bb0b352ff737e6d79691d76500b98613f3507e9d83237c064161b3a",
-        {
-          "node": "Empty",
-          "hash": null
-        }
-      ],
-      [
-        "0x83a8b06f0075cab64ddbf41592136477fbb27d4b81263bf5d4a798bec3ac8a06",
-        {
-          "node": {
-            "Branch": {
-              "children": [
-                {
-                  "node": "Empty",
-                  "hash": null
-                },
-                {
-                  "node": "Empty",
-                  "hash": null
-                },
-                {
-                  "node": {
-                    "Leaf": {
-                      "nibbles": {
-                        "count": 63,
-                        "packed": "0x90decd9548b62a8d60345a988386fc84ba6bc95484008f6362f93160ef3e563"
-                      },
-                      "value": [
-                        1
-                      ]
-                    }
-                  },
-                  "hash": "0x4fc5f13ab2f9ba0c2da88b0151ab0e7cf4d85d08cca45ccd923c6ab76323eb28"
-                },
-                {
-                  "node": "Empty",
-                  "hash": null
-                },
-                {
-                  "node": {
-                    "Leaf": {
-                      "nibbles": {
-                        "count": 63,
-                        "packed": "0x5787fa12a823e0f2b7631cc41b3ba8828b3321ca811111fa75cd3aa3bb5ace"
-                      },
-                      "value": [
-                        1
-                      ]
-                    }
-                  },
-                  "hash": "0x15503e91f9250654cf72906e38a7cb14c3f1cc06658379d37f0c5b5c32482880"
-                },
-                {
-                  "node": "Empty",
-                  "hash": null
-                },
-                {
-                  "node": "Empty",
-                  "hash": null
-                },
-                {
-                  "node": "Empty",
-                  "hash": null
-                },
-                {
-                  "node": "Empty",
-                  "hash": null
-                },
-                {
-                  "node": "Empty",
-                  "hash": null
-                },
-                {
-                  "node": "Empty",
-                  "hash": null
-                },
-                {
-                  "node": {
-                    "Leaf": {
-                      "nibbles": {
-                        "count": 63,
-                        "packed": "0x10e2d527612073b26eecdfd717e6a320cf44b4afac2b0732d9fcbe2b7fa0cf6"
-                      },
-                      "value": [
-                        1
-                      ]
-                    }
-                  },
-                  "hash": "0xf4984a11f61a2921456141df88de6e1a710d28681b91af794c5a721e47839cd7"
-                },
-                {
-                  "node": "Empty",
-                  "hash": null
-                },
-                {
-                  "node": "Empty",
-                  "hash": null
-                },
-                {
-                  "node": "Empty",
-                  "hash": null
-                },
-                {
-                  "node": "Empty",
-                  "hash": null
-                }
-              ],
-              "value": []
-            }
-          },
-          "hash": null
-        }
       ]
     ]
   },
@@ -1508,9 +1508,8 @@
     "transactions_root": "0xf2d86fa5a6a3f450a0c61659e2975fca7144de6705c970ed122d3ef878b36979",
     "receipts_root": "0xf393aba1d542636f304f6d03aec9523139e7f71c7849031f0b480bdb932814ce"
   },
-  "genesis_state_trie_root": "0x37987ef569a9c6dd19073e0ddc59fb7762962f458d9b525b78e537605b353c1c",
+  "checkpoint_state_trie_root": "0x37987ef569a9c6dd19073e0ddc59fb7762962f458d9b525b78e537605b353c1c",
   "contract_code": {
-    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
     "0xcf9c630e859350e379cf6c6b2ece96bc97c9b025b01644112c5425f012a5ac90": [
       96,
       1,
@@ -1704,7 +1703,8 @@
       0,
       253,
       0
-    ]
+    ],
+    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": []
   },
   "block_metadata": {
     "block_beneficiary": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
@@ -1987,14 +1987,5 @@
       "0x0000000000000000000000000000000000000000000000000000000000000000"
     ],
     "cur_hash": "0x0000000000000000000000000000000000000000000000000000000000000000"
-  },
-  "addresses": [
-    "0x3000000000000000000000000000000000000000",
-    "0xb200000000000000000000000000000000000000",
-    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
-    "0x2000000000000000000000000000000000000000",
-    "0x1000000000000000000000000000000000000000",
-    "0xb000000000000000000000000000000000000000",
-    "0xb100000000000000000000000000000000000000"
-  ]
+  }
 }

@@ -2296,119 +2296,7 @@
     },
     "storage_tries": [
       [
-        "0x84766cd4d389d5b35bdf3f0dabc0e6d2d2ae4ff1c3ff16777f681ded65fbfb3d",
-        {
-          "node": "Empty",
-          "hash": null
-        }
-      ],
-      [
-        "0x375d2a5cf9c65c179574bc975c60741fad5e857e6ac9e25a6fc95396cc9f5a4a",
-        {
-          "node": "Empty",
-          "hash": null
-        }
-      ],
-      [
-        "0x92bf1787b2d5c0eecb2fa31ee125670215ee0c8ad59af5ec994a1d00e34d0e4b",
-        {
-          "node": "Empty",
-          "hash": null
-        }
-      ],
-      [
-        "0x227a737497210f7cc2f464e3bfffadefa9806193ccdf873203cd91c8d3eab518",
-        {
-          "node": "Empty",
-          "hash": null
-        }
-      ],
-      [
-        "0x4c933a84259efbd4fb5d1522b5255e6118da186a2c71ec5efaa5c203067690b7",
-        {
-          "node": "Empty",
-          "hash": null
-        }
-      ],
-      [
-        "0xad7226bf61275d0628c377c581ea64feef7095001add18ab0102de9a2855db2b",
-        {
-          "node": "Empty",
-          "hash": null
-        }
-      ],
-      [
-        "0x1fa902a00209a1fa9b07bda3b15f8a59a27ed99720a2ec372bd9cbc9b52c352f",
-        {
-          "node": "Empty",
-          "hash": null
-        }
-      ],
-      [
-        "0x08aa49c1d12105de82bf1c7ed7c54f741e846b6b70539e92d2e0dedfc801491f",
-        {
-          "node": "Empty",
-          "hash": null
-        }
-      ],
-      [
-        "0xdf86181aa34d5826ff029fff0a9deecf401ac2faf430a997e616baa31fb29e27",
-        {
-          "node": "Empty",
-          "hash": null
-        }
-      ],
-      [
-        "0x82500578290285897d4df10387b588b3394efb04caf3e614d41ecd7f7748a8d9",
-        {
-          "node": "Empty",
-          "hash": null
-        }
-      ],
-      [
-        "0x761660893d8a705c9e61080a11fbe19bb90bcab69939e98d66ad37a0ef7379e3",
-        {
-          "node": "Empty",
-          "hash": null
-        }
-      ],
-      [
-        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
-        {
-          "node": "Empty",
-          "hash": null
-        }
-      ],
-      [
-        "0xa5cc446814c4e9060f2ecb3be03085683a83230981ca8f19d35a4438f8c2d277",
-        {
-          "node": "Empty",
-          "hash": null
-        }
-      ],
-      [
-        "0x631cd62ec5149e78ea8382e2efb47d0d23b3c41b432ef7cedb76fa41d347104b",
-        {
-          "node": "Empty",
-          "hash": null
-        }
-      ],
-      [
-        "0x088a1a26e90e6be9575b4726af00ed1358295b3a403661753fa7aff812c51819",
-        {
-          "node": "Empty",
-          "hash": null
-        }
-      ],
-      [
-        "0xa17eacbc25cda025e81db9c5c62868822c73ce097cee2a63e33a2e41268358a1",
-        {
-          "node": "Empty",
-          "hash": null
-        }
-      ],
-      [
-        "0xf057b39b049c7df5dfa86c4b0869abe798cef059571a5a1e5bbf5168cf6c097b",
+        "0xfb13089298e8edb9e70c0d22edac7d0e1165526a1a8c5cf45e2d1f854947c95b",
         {
           "node": "Empty",
           "hash": null
@@ -2422,7 +2310,119 @@
         }
       ],
       [
-        "0xfb13089298e8edb9e70c0d22edac7d0e1165526a1a8c5cf45e2d1f854947c95b",
+        "0x84766cd4d389d5b35bdf3f0dabc0e6d2d2ae4ff1c3ff16777f681ded65fbfb3d",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
+        "0x82500578290285897d4df10387b588b3394efb04caf3e614d41ecd7f7748a8d9",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
+        "0x08aa49c1d12105de82bf1c7ed7c54f741e846b6b70539e92d2e0dedfc801491f",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
+        "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
+        "0xa17eacbc25cda025e81db9c5c62868822c73ce097cee2a63e33a2e41268358a1",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
+        "0x631cd62ec5149e78ea8382e2efb47d0d23b3c41b432ef7cedb76fa41d347104b",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
+        "0xf057b39b049c7df5dfa86c4b0869abe798cef059571a5a1e5bbf5168cf6c097b",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
+        "0x92bf1787b2d5c0eecb2fa31ee125670215ee0c8ad59af5ec994a1d00e34d0e4b",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
+        "0x088a1a26e90e6be9575b4726af00ed1358295b3a403661753fa7aff812c51819",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
+        "0x1fa902a00209a1fa9b07bda3b15f8a59a27ed99720a2ec372bd9cbc9b52c352f",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
+        "0x4c933a84259efbd4fb5d1522b5255e6118da186a2c71ec5efaa5c203067690b7",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
+        "0xdf86181aa34d5826ff029fff0a9deecf401ac2faf430a997e616baa31fb29e27",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
+        "0x375d2a5cf9c65c179574bc975c60741fad5e857e6ac9e25a6fc95396cc9f5a4a",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
+        "0x227a737497210f7cc2f464e3bfffadefa9806193ccdf873203cd91c8d3eab518",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
+        "0xa5cc446814c4e9060f2ecb3be03085683a83230981ca8f19d35a4438f8c2d277",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
+        "0xad7226bf61275d0628c377c581ea64feef7095001add18ab0102de9a2855db2b",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
+        "0x761660893d8a705c9e61080a11fbe19bb90bcab69939e98d66ad37a0ef7379e3",
         {
           "node": "Empty",
           "hash": null
@@ -2435,13 +2435,13 @@
     "transactions_root": "0x86be9b5d20254e0393853c82e5534d9d9f8486f1fd2ed4f4c0a169339c79bd1c",
     "receipts_root": "0x8e59e9304580a7332bef5565c2bccfb1590998f7e377be73d2445aefed063491"
   },
-  "genesis_state_trie_root": "0xf79680dbab8977df6ff6da98c4a37108eab066b8f74e04c7208ee87890eb5a66",
+  "checkpoint_state_trie_root": "0xf79680dbab8977df6ff6da98c4a37108eab066b8f74e04c7208ee87890eb5a66",
   "contract_code": {
-    "0x1fd187a1c131997f0fbc2494cff21983dd1e7f636ffe232ecdb39430004e874b": [
+    "0x8111fe610590ab9d4ffddb23730705eb47306827767a3c2d607972ed3492fd5a": [
       96,
-      1,
+      0,
       97,
-      8,
+      4,
       0,
       32,
       96,
@@ -2517,6 +2517,17 @@
       241,
       0
     ],
+    "0xe5da58ffa884421961b49ca15970ea05ea6dfba1f1a378453fc0c59edd032d6a": [
+      96,
+      5,
+      96,
+      4,
+      32,
+      96,
+      0,
+      85,
+      0
+    ],
     "0x4590e2b653312f2381d057f2522b139cc30c3bb0c8f5fceb1f3c5a7ddae2c1a3": [
       96,
       32,
@@ -2529,28 +2540,35 @@
       85,
       0
     ],
-    "0x249c89e18c7cba2eb5f09ecf563b08168014205b8abf353c6d820ff9e774bf84": [
+    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
+    "0x7477269597482c26b7b0ba43d116abb47f8d53a09b41d3953d41f6a3a339f9f0": [
       96,
-      100,
-      100,
-      15,
-      255,
-      255,
-      255,
-      255,
+      1,
+      97,
+      3,
+      224,
       32,
       96,
       0,
       85,
       0
     ],
-    "0xae371e166ddf41f3ed61c53f50c2dde6243634c107a3bcc83b12a21e62151a86": [
+    "0x1fd187a1c131997f0fbc2494cff21983dd1e7f636ffe232ecdb39430004e874b": [
       96,
-      2,
-      99,
       1,
+      97,
+      8,
       0,
+      32,
+      96,
       0,
+      85,
+      0
+    ],
+    "0xee31d7e6515b8621eebd64c6923fc5bfbaf9e1c19576e280a60c67baeafae10c": [
+      96,
+      0,
+      96,
       0,
       32,
       96,
@@ -2574,6 +2592,56 @@
       85,
       0
     ],
+    "0x46dc6dbabb7a196e5189ec32078d7ff7630c04963519136dfebc0cde4715c34f": [
+      96,
+      1,
+      97,
+      4,
+      0,
+      32,
+      96,
+      0,
+      85,
+      0
+    ],
+    "0x08a2ea56683e39e9125b4ffeef1c461c9754852516245fdcc170a41859830fae": [
+      96,
+      1,
+      97,
+      3,
+      192,
+      32,
+      96,
+      0,
+      85,
+      0
+    ],
+    "0x09cf503a1314a26fb01dfe5e87b4e9e966f98f6b4c807284043e050f4e5f7b4b": [
+      96,
+      1,
+      97,
+      7,
+      224,
+      32,
+      96,
+      0,
+      85,
+      0
+    ],
+    "0xae371e166ddf41f3ed61c53f50c2dde6243634c107a3bcc83b12a21e62151a86": [
+      96,
+      2,
+      99,
+      1,
+      0,
+      0,
+      0,
+      32,
+      96,
+      0,
+      85,
+      0
+    ],
     "0xb86224f90759702a67ef06d4992baf64b18eaa26d57a9f05dd5c6a05788beba5": [
       98,
       15,
@@ -2588,71 +2656,11 @@
       85,
       0
     ],
-    "0xe5da58ffa884421961b49ca15970ea05ea6dfba1f1a378453fc0c59edd032d6a": [
+    "0x2e99b3674d5765ba743799b9063955b507b3e4627541803ad14ab932648af3b7": [
       96,
-      5,
+      10,
       96,
-      4,
-      32,
-      96,
-      0,
-      85,
-      0
-    ],
-    "0xee31d7e6515b8621eebd64c6923fc5bfbaf9e1c19576e280a60c67baeafae10c": [
-      96,
-      0,
-      96,
-      0,
-      32,
-      96,
-      0,
-      85,
-      0
-    ],
-    "0x7477269597482c26b7b0ba43d116abb47f8d53a09b41d3953d41f6a3a339f9f0": [
-      96,
-      1,
-      97,
-      3,
-      224,
-      32,
-      96,
-      0,
-      85,
-      0
-    ],
-    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
-    "0x7311ccd10812702864908c6a062077ad776ae1a8d67d5ddbbb250cbbe2a46716": [
-      96,
-      1,
-      97,
-      7,
-      192,
-      32,
-      96,
-      0,
-      85,
-      0
-    ],
-    "0x46dc6dbabb7a196e5189ec32078d7ff7630c04963519136dfebc0cde4715c34f": [
-      96,
-      1,
-      97,
-      4,
-      0,
-      32,
-      96,
-      0,
-      85,
-      0
-    ],
-    "0x8111fe610590ab9d4ffddb23730705eb47306827767a3c2d607972ed3492fd5a": [
-      96,
-      0,
-      97,
-      4,
-      0,
+      10,
       32,
       96,
       0,
@@ -2732,35 +2740,27 @@
       85,
       0
     ],
-    "0x09cf503a1314a26fb01dfe5e87b4e9e966f98f6b4c807284043e050f4e5f7b4b": [
+    "0x7311ccd10812702864908c6a062077ad776ae1a8d67d5ddbbb250cbbe2a46716": [
       96,
       1,
       97,
       7,
-      224,
-      32,
-      96,
-      0,
-      85,
-      0
-    ],
-    "0x2e99b3674d5765ba743799b9063955b507b3e4627541803ad14ab932648af3b7": [
-      96,
-      10,
-      96,
-      10,
-      32,
-      96,
-      0,
-      85,
-      0
-    ],
-    "0x08a2ea56683e39e9125b4ffeef1c461c9754852516245fdcc170a41859830fae": [
-      96,
-      1,
-      97,
-      3,
       192,
+      32,
+      96,
+      0,
+      85,
+      0
+    ],
+    "0x249c89e18c7cba2eb5f09ecf563b08168014205b8abf353c6d820ff9e774bf84": [
+      96,
+      100,
+      100,
+      15,
+      255,
+      255,
+      255,
+      255,
       32,
       96,
       0,
@@ -3049,26 +3049,5 @@
       "0x0000000000000000000000000000000000000000000000000000000000000000"
     ],
     "cur_hash": "0x0000000000000000000000000000000000000000000000000000000000000000"
-  },
-  "addresses": [
-    "0x000000000000000000000000000000000000010b",
-    "0x000000000000000000000000000000000000010e",
-    "0x000000000000000000000000000000000000010d",
-    "0x0000000000000000000000000000000000000100",
-    "0x0000000000000000000000000000000000000104",
-    "0x0000000000000000000000000000000000000106",
-    "0x0000000000000000000000000000000000000109",
-    "0x0000000000000000000000000000000000000105",
-    "0x000000000000000000000000000000000000010c",
-    "0x000000000000000000000000000000000000010a",
-    "0x000000000000000000000000000000000000010f",
-    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
-    "0x0000000000000000000000000000000000000103",
-    "0x0000000000000000000000000000000000000108",
-    "0x0000000000000000000000000000000000000110",
-    "0x0000000000000000000000000000000000000102",
-    "0xcccccccccccccccccccccccccccccccccccccccc",
-    "0x0000000000000000000000000000000000000101",
-    "0x0000000000000000000000000000000000000107"
-  ]
+  }
 }

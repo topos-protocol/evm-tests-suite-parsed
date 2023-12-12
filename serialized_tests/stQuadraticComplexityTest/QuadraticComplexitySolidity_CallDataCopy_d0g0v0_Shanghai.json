@@ -548,6 +548,13 @@
     },
     "storage_tries": [
       [
+        "0xd0c30dcd188e2cdd56c50b2044d150873010914736f94d07d26ff74c7f0cf89b",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
         "0x03601462093b5945d1676df093446790fd31b20e7b12a2e8e5e09d068109616b",
         {
           "node": "Empty",
@@ -560,13 +567,6 @@
           "node": "Empty",
           "hash": null
         }
-      ],
-      [
-        "0xd0c30dcd188e2cdd56c50b2044d150873010914736f94d07d26ff74c7f0cf89b",
-        {
-          "node": "Empty",
-          "hash": null
-        }
       ]
     ]
   },
@@ -575,9 +575,20 @@
     "transactions_root": "0xf55f2f147bb0c7c4add139353124f0f847c17957d9415e5814864aa3db0e484b",
     "receipts_root": "0xa0e10907f175886de9bd8cd4ac2c21d1db4109a3a9fecf60f54015ee102803fd"
   },
-  "genesis_state_trie_root": "0x3b5e71c94abcb5198280cdcb0624e77d82b41b15da536722c567fac89a79857f",
+  "checkpoint_state_trie_root": "0x3b5e71c94abcb5198280cdcb0624e77d82b41b15da536722c567fac89a79857f",
   "contract_code": {
     "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
+    "0x956a984a679143e6c7c05e2bd14ee61c36fc0c3fb593872cb6e3cd0c7ca611f9": [
+      97,
+      195,
+      80,
+      96,
+      0,
+      96,
+      0,
+      55,
+      0
+    ],
     "0x4ead278d747a8b4810cf4fdde87d8a27893c63474e148d9f64de84784f389ec8": [
       96,
       0,
@@ -774,17 +785,6 @@
       80,
       80,
       86
-    ],
-    "0x956a984a679143e6c7c05e2bd14ee61c36fc0c3fb593872cb6e3cd0c7ca611f9": [
-      97,
-      195,
-      80,
-      96,
-      0,
-      96,
-      0,
-      55,
-      0
     ]
   },
   "block_metadata": {
@@ -1068,10 +1068,5 @@
       "0x0000000000000000000000000000000000000000000000000000000000000000"
     ],
     "cur_hash": "0x0000000000000000000000000000000000000000000000000000000000000000"
-  },
-  "addresses": [
-    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
-    "0xc9c5a15a403e41498b6f69f6f89dd9f5892d21f7",
-    "0xb94f5374fce5edbc8e2a8697c15331677e6ebf0b"
-  ]
+  }
 }

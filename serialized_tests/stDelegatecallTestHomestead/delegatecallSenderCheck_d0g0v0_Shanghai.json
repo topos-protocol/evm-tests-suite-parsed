@@ -511,6 +511,13 @@
     },
     "storage_tries": [
       [
+        "0x0fbc62ba90dec43ec1d6016f9dd39dc324e967f2a3459a78281d1f4b2ba962a6",
+        {
+          "node": "Empty",
+          "hash": null
+        }
+      ],
+      [
         "0xcf90776785c210b803c5899a936666a2b0c9e030f9240146d3c54c8420973a91",
         {
           "node": "Empty",
@@ -523,13 +530,6 @@
           "node": "Empty",
           "hash": null
         }
-      ],
-      [
-        "0x0fbc62ba90dec43ec1d6016f9dd39dc324e967f2a3459a78281d1f4b2ba962a6",
-        {
-          "node": "Empty",
-          "hash": null
-        }
       ]
     ]
   },
@@ -538,15 +538,9 @@
     "transactions_root": "0x6434509a2d7d87f5d6f7dcccb6eb25db092f0ec3ab6a48c90d4eb2b5715fb57b",
     "receipts_root": "0xf85f1b55a2314a9564c8e0c26f748db9f2e127f46f1b2ccfec42da5039c0f8de"
   },
-  "genesis_state_trie_root": "0x9572ee4377ffa3d01b690a326bd4230a85b370e7622afd3f59f8b6a79be7cd62",
+  "checkpoint_state_trie_root": "0x9572ee4377ffa3d01b690a326bd4230a85b370e7622afd3f59f8b6a79be7cd62",
   "contract_code": {
-    "0xf72c1ee8f9d8b42ea2c31b181fbe8de83263af687b15d88bcd1a5ad29c6365b4": [
-      51,
-      96,
-      1,
-      85,
-      0
-    ],
+    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": [],
     "0xb76d59ad9e4e9e36acec5a9504323988b0e96e679b366287a2778279f48dff62": [
       96,
       2,
@@ -587,7 +581,13 @@
       85,
       0
     ],
-    "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470": []
+    "0xf72c1ee8f9d8b42ea2c31b181fbe8de83263af687b15d88bcd1a5ad29c6365b4": [
+      51,
+      96,
+      1,
+      85,
+      0
+    ]
   },
   "block_metadata": {
     "block_beneficiary": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
@@ -870,10 +870,5 @@
       "0x0000000000000000000000000000000000000000000000000000000000000000"
     ],
     "cur_hash": "0x0000000000000000000000000000000000000000000000000000000000000000"
-  },
-  "addresses": [
-    "0x945304eb96065b2a98b57a48a06ae28d285a71b5",
-    "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
-    "0x095e7baea6a6c7c4c2dfeb977efac326af552d87"
-  ]
+  }
 }
